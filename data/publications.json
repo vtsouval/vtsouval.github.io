@@ -207,7 +207,7 @@
     "links": {
       "Paper": "https://doi.org/10.1145/3626242",
       "Project": "https://federatedml.github.io/FedLN/",
-      "Code": "https://github.com/FederatedML/FedLN"
+      "Code": "https://github.com/Nousphera/FedLN"
     },
     "related": [
       {
@@ -246,7 +246,7 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2401.14211",
-      "Code": "https://github.com/FederatedML/FedCompress"
+      "Code": "https://github.com/Nousphera/FedCompress"
     },
     "summary": "FedCompress combines adaptive weight clustering with knowledge distillation on the server to reduce federated communication. Its compression strategy targets communication cost and inference efficiency while retaining model generalization.",
     "keywords": [
@@ -399,7 +399,7 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1145/3520128",
-      "Code": "https://github.com/FederatedML/FedSTAR"
+      "Code": "https://github.com/Nousphera/FedSTAR"
     },
     "related": [
       {
