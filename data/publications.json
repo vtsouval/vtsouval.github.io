@@ -206,7 +206,6 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1145/3626242",
-      "Project": "https://federatedml.github.io/FedLN/",
       "Code": "https://github.com/Nousphera/FedLN"
     },
     "related": [
@@ -230,7 +229,7 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2208.09378",
-      "https://github.com/FederatedML/FedLN#readme",
+      "https://github.com/Nousphera/FedLN#readme",
       "https://doi.org/10.1145/3626242"
     ]
   },
@@ -262,7 +261,7 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2401.14211",
-      "https://github.com/FederatedML/FedCompress#readme"
+      "https://github.com/Nousphera/FedCompress#readme"
     ]
   },
   {
@@ -422,7 +421,7 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2107.06877",
-      "https://github.com/FederatedML/FedSTAR#readme",
+      "https://github.com/Nousphera/FedSTAR#readme",
       "https://doi.org/10.1145/3520128"
     ]
   },

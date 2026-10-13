@@ -6,7 +6,9 @@ Verified on 13 October 2026 against public GitHub repository READMEs, arXiv abst
 
 All 14 existing publication records, their topic assignments, and the three related versions are retained. Each main record now has a concise `summary`, a `keywords` array for search, and a `sources` array recording the evidence used. Summaries paraphrase the primary abstract's problem and method; they do not reproduce whole abstracts or introduce new performance claims. Keywords include method names, expanded task names, common acronyms and relevant technique terms.
 
-The public inventories were checked through the GitHub REST API: [Nousphera repositories](https://api.github.com/orgs/Nousphera/repos?per_page=100&type=public), [FederatedML repositories](https://api.github.com/orgs/FederatedML/repos?per_page=100&type=public), and [vtsouval repositories](https://api.github.com/users/vtsouval/repos?per_page=100). Additional repositories were located by method-name search and accepted only after checking their README's paper citation.
+The public inventories were checked through the GitHub REST API: [Nousphera repositories](https://api.github.com/orgs/Nousphera/repos?per_page=100&type=public), [vtsouval repositories](https://api.github.com/users/vtsouval/repos?per_page=100). Additional repositories were located by method-name search and accepted only after checking their README's paper citation.
+
+The personal website now uses Nousphera for its organization links. The maintained FedSTAR, FedLN, and FedCompress copies preserve their original Git history and attribution.
 
 ## Verified paper-to-code links
 
@@ -18,11 +20,11 @@ Eight Code links were added; the existing FedSTAR Code link was confirmed. No au
 | MPSL | [Nousphera/MPSL](https://github.com/Nousphera/MPSL) | README title and citation match [arXiv:2502.06355](https://arxiv.org/abs/2502.06355). |
 | EFU | [SamaneMohammadi/EFU](https://github.com/SamaneMohammadi/EFU) | README links the CIKM DOI and [arXiv:2508.07873](https://arxiv.org/abs/2508.07873), with matching authors. |
 | EncCluster | [SamaneMohammadi/EncCluster](https://github.com/SamaneMohammadi/EncCluster) | README links the journal article and [arXiv:2406.09152](https://arxiv.org/abs/2406.09152), with a matching journal citation. |
-| FedLN | [FederatedML/FedLN](https://github.com/FederatedML/FedLN) | README uses the journal title and links [DOI 10.1145/3626242](https://doi.org/10.1145/3626242) and the preprint. The existing [project page](https://federatedml.github.io/FedLN/) also returned HTTP 200. |
-| FedCompress | [FederatedML/FedCompress](https://github.com/FederatedML/FedCompress) | README links [arXiv:2401.14211](https://arxiv.org/abs/2401.14211) and gives the matching ICASSP 2024 title and DOI. |
+| FedLN | [Nousphera/FedLN](https://github.com/Nousphera/FedLN) | README uses the journal title and links [DOI 10.1145/3626242](https://doi.org/10.1145/3626242) and the preprint. |
+| FedCompress | [Nousphera/FedCompress](https://github.com/Nousphera/FedCompress) | README links [arXiv:2401.14211](https://arxiv.org/abs/2401.14211) and gives the matching ICASSP 2024 title and DOI. |
 | FedCode | [vtsouval/FedCode](https://github.com/vtsouval/FedCode) | README title, authors and [arXiv:2311.09270](https://arxiv.org/abs/2311.09270) match. |
 | DA-MLDG | [vtsouval/DA_MLDG](https://github.com/vtsouval/DA_MLDG) | README citation names the same paper, authors and PerFail 2023 venue as the [TU/e record](https://research.tue.nl/en/publications/on-efficacy-of-meta-learning-for-domain-generalization-in-speech-/). |
-| FedSTAR — existing link | [FederatedML/FedSTAR](https://github.com/FederatedML/FedSTAR) | README cites both the TECS paper ([DOI 10.1145/3520128](https://doi.org/10.1145/3520128)) and its ICASSP related version. |
+| FedSTAR — existing link | [Nousphera/FedSTAR](https://github.com/Nousphera/FedSTAR) | README cites both the TECS paper ([DOI 10.1145/3520128](https://doi.org/10.1145/3520128)) and its ICASSP related version. |
 
 ## Abstract sources
 
