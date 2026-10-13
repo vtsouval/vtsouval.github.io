@@ -1,0 +1,228 @@
+[
+  {
+    "year": 2026,
+    "title": "AutoEncoder-Compressed Parallel Split Learning for Pre-Trained Model Fine-Tuning",
+    "authors": "B. Meuwissen, V. Tsouvalas, N. Meratnia",
+    "venue": "WAFL @ ECML-PKDD",
+    "type": "Workshop",
+    "topics": [
+      "efficient",
+      "foundation"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2607.17913"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "Many-Task Federated Fine-Tuning via Unified Task Vectors",
+    "authors": "V. Tsouvalas, T. Ozcelebi, N. Meratnia",
+    "venue": "FedGenAI @ IJCAI",
+    "type": "Workshop",
+    "topics": [
+      "federated",
+      "foundation"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2502.06376"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "Fine-Tuning Multimodal Transformers on Edge: A Parallel Split Learning Approach",
+    "authors": "T. Fudala, V. Tsouvalas, N. Meratnia",
+    "venue": "FedGenAI @ IJCAI",
+    "type": "Workshop",
+    "topics": [
+      "efficient",
+      "foundation"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2502.06355"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "EFU: Enforcing Federated Unlearning via Functional Encryption",
+    "authors": "S. Mohammadi, V. Tsouvalas, I. Symeonidis, A. Balador, T. Ozcelebi, F. Flammini, N. Meratnia",
+    "venue": "ACM CIKM",
+    "type": "Conference",
+    "topics": [
+      "privacy",
+      "federated"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2508.07873",
+      "Published version": "https://doi.org/10.1145/3746252.3761091"
+    }
+  },
+  {
+    "year": 2025,
+    "title": "EncCluster: Scalable Functional Encryption in Federated Learning through Weight Clustering and Probabilistic Filters",
+    "authors": "V. Tsouvalas, S. Mohammadi, A. Balador, T. Ozcelebi, F. Flammini, N. Meratnia",
+    "venue": "Pervasive and Mobile Computing",
+    "type": "Journal",
+    "topics": [
+      "privacy",
+      "federated",
+      "efficient"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2406.09152",
+      "Published version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100"
+    }
+  },
+  {
+    "year": 2024,
+    "title": "DeltaMask: Minimizing Communication in Federated Fine-Tuning of Vision Foundation Models",
+    "authors": "V. Tsouvalas, Y. M. Asano, A. Saeed",
+    "venue": "IEEE BigData 2024",
+    "type": "Conference",
+    "topics": [
+      "federated",
+      "foundation",
+      "efficient"
+    ],
+    "links": {
+      "Paper": "https://research.tue.nl/files/349909071/2024337517.pdf",
+      "Preprint": "https://arxiv.org/abs/2311.17299"
+    },
+    "related": [
+      {
+        "title": "Federated Fine-Tuning of Vision Foundation Models via Probabilistic Masking",
+        "venue": "FM-Wild @ ICML 2024 · Workshop",
+        "url": "https://openreview.net/forum?id=VDgx8JLtid"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Labeling Chaos to Learning Harmony: Federated Learning with Noisy Labels",
+    "authors": "V. Tsouvalas, A. Saeed, T. Ozcelebi, N. Meratnia",
+    "venue": "ACM TIST",
+    "type": "Journal",
+    "topics": [
+      "federated",
+      "supervision"
+    ],
+    "links": {
+      "Paper": "https://doi.org/10.1145/3626242",
+      "Project": "https://federatedml.github.io/FedLN/"
+    },
+    "related": [
+      {
+        "title": "Federated Learning with Noisy Labels: Achieving Generalization in the Face of Label Noise",
+        "venue": "INTERPOLATE @ NeurIPS 2022 · Workshop",
+        "url": "https://openreview.net/pdf?id=gNHMC4I0Pva"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Communication-Efficient Federated Learning through Adaptive Weight Clustering and Server-Side Distillation",
+    "authors": "V. Tsouvalas, A. Saeed, T. Ozcelebi, N. Meratnia",
+    "venue": "IEEE ICASSP",
+    "type": "Conference",
+    "topics": [
+      "federated",
+      "efficient"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2401.14211"
+    }
+  },
+  {
+    "year": 2024,
+    "title": "FedCode: Communication-Efficient Federated Learning via Transferring Codebooks",
+    "authors": "S. Khalilian, V. Tsouvalas, T. Ozcelebi, N. Meratnia",
+    "venue": "IEEE EDGE",
+    "type": "Conference",
+    "topics": [
+      "federated",
+      "efficient"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2311.09270",
+      "Published version": "https://ieeexplore.ieee.org/document/10646450/"
+    }
+  },
+  {
+    "year": 2024,
+    "title": "On the Effectiveness of Invisible Backdoor Attacks in Federated Learning",
+    "authors": "M. Marinus, V. Tsouvalas, N. Meratnia",
+    "venue": "UbiSec 2024 · Proceedings published 2025",
+    "type": "Conference",
+    "topics": [
+      "privacy",
+      "federated"
+    ],
+    "links": {
+      "Paper": "https://doi.org/10.1007/978-981-96-4836-8_13"
+    }
+  },
+  {
+    "year": 2023,
+    "title": "Plug-and-Play Multilingual Few-Shot Spoken Words Recognition",
+    "authors": "A. Saeed, V. Tsouvalas",
+    "venue": "arXiv:2305.03058",
+    "type": "Preprint",
+    "topics": [
+      "supervision",
+      "efficient"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2305.03058"
+    }
+  },
+  {
+    "year": 2023,
+    "title": "On the Efficacy of Meta-Learning for Domain Generalization in Speech Emotion Recognition",
+    "authors": "R. K. Gandhi, V. Tsouvalas, N. Meratnia",
+    "venue": "PerFail @ IEEE PerCom",
+    "type": "Workshop",
+    "topics": [
+      "supervision"
+    ],
+    "links": {
+      "Paper": "https://ieeexplore.ieee.org/document/10150265/"
+    }
+  },
+  {
+    "year": 2022,
+    "title": "Federated Self-Training for Semi-Supervised Audio Recognition",
+    "authors": "V. Tsouvalas, A. Saeed, T. Ozcelebi",
+    "venue": "ACM TECS",
+    "type": "Journal",
+    "topics": [
+      "federated",
+      "supervision"
+    ],
+    "links": {
+      "Paper": "https://doi.org/10.1145/3520128",
+      "Code": "https://github.com/FederatedML/FedSTAR"
+    },
+    "related": [
+      {
+        "title": "Federated Self-Training for Data-Efficient Audio Recognition",
+        "venue": "IEEE ICASSP 2022 · Conference",
+        "url": "https://ieeexplore.ieee.org/document/9746356"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Privacy-Preserving Speech Emotion Recognition through Semi-Supervised Federated Learning",
+    "authors": "V. Tsouvalas, T. Ozcelebi, N. Meratnia",
+    "venue": "EmotionAware @ IEEE PerCom",
+    "type": "Workshop",
+    "topics": [
+      "federated",
+      "supervision",
+      "privacy"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/abs/2202.02611",
+      "Published version": "https://ieeexplore.ieee.org/document/9767445"
+    }
+  }
+]

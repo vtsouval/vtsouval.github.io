@@ -1,158 +1,135 @@
 <!doctype html>
+<html lang="en">
 <head>
-  <title>Vasileios Tsouvalas</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="preload" as="image" href="assets/misc/overview_sg.gif">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-  <meta name="theme-color" content="#1a4067" />
-  <!-- SEO -->
-  <meta property="og:title" content="Vasileios Tsouvalas" />
-  <meta property="og:type" content="article" />
-  <meta property="og:description" content="Machine Learning Researcher" />
-  <meta property="og:image" content="" />
-  <meta property="og:url" content="https://vtsouval.github.io/" />
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Vasileios Tsouvalas" />
-  <meta name="twitter:description" content="" />
-  <meta property="og:site_name" content="" />
-  <meta name="twitter:image" content="" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
-  <link rel="stylesheet" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vasileios Tsouvalas — Machine Learning Researcher</title>
+  <meta name="description" content="Vasileios Tsouvalas is a postdoctoral researcher at TU Eindhoven working on LLM reasoning, federated learning, and efficient adaptation of foundation models.">
+  <meta name="theme-color" content="#f6f5f1">
+  <link rel="canonical" href="https://vtsouval.github.io/">
+  <meta property="og:title" content="Vasileios Tsouvalas — Machine Learning Researcher">
+  <meta property="og:description" content="Research in language-model reasoning, federated learning, and efficient foundation-model adaptation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vtsouval.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/misc/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Vasileios Tsouvalas","alternateName":"Vasilis Tsouvalas","url":"https://vtsouval.github.io/","jobTitle":"Postdoctoral Researcher","affiliation":{"@type":"Organization","name":"Eindhoven University of Technology"},"sameAs":["https://orcid.org/0000-0001-9143-1188","https://scholar.google.com/citations?user=FgPQz3QAAAAJ","https://github.com/vtsouval"]}</script>
 </head>
-
-<body onload="showPageCallback()">
-	<script src="lib/jquery-1.12.4.min.js"></script>
-	<!--<script src="lib/mobile-detect.min.js"></script>-->
-	<script src="lib/template.v1.js"></script>
-	<script src="lib/scramble.js"></script>
-	<div id="main_body" style="display:none;">
-	<dt-article id="dtbody">
-	<dt-byline class="l-page transparent"></dt-byline>
-	<h1>Vasileios Tsouvalas</h1>
-	<h2>PhD Student @ <a href="https://www.tue.nl/en" target="_blank">Eindhoven University of Technology</a> <br>
-	  Federated Learning, Human-Centric AI, Audio, & On-device ML
-	</h2>
-	<dt-byline class="l-page" id="authors_section">
-	<div class="byline">
-	  <div>
-		<p>I'm a PhD student at <a class="link-colored" href="https://www.tue.nl/en">Eindhoven University of Technology</a> in the <a href="https://iris.win.tue.nl/">Interconnected Resource-aware Intelligent Systems (IRIS) group</a>. My research interests span <span class="link-colored">Machine Learning</span>, <span class="link-colored">Federated Learning</span>, <span class="link-colored">Audio</span>, <span class="link-colored">On-device ML</span>, and applications to train federated models with <span class="link-colored">minimal human supervision</span>.
-		</p>
-	  </div>
-	  <div class="authors">
-		<div class="author">
-			<a class="project-link" href="https://scholar.google.com/citations?user=FgPQz3QAAAAJ&hl=en" target="_blank">Scholar</a>
-		</div>
-		<div class="author">
-			<a class="project-link" href="https://github.com/vtsouval" target="_blank">GitHub</a>
-		</div>
-		<div class="author">
-			<a class="project-link" href="https://www.linkedin.com/in/vasileios-tsouvalas-0a4934149/" target="_blank">LinkedIn</a>
-		</div>
-		<div class="author">
-		<a class="project-link">Email:</a><font id="email" style="display:inline;">.vasoutetlv@una<a href="#" onclick="emailScramble.initAnimatedBubbleSort();return false;">unscramble</a></font>
-		<script>
-			emailScramble = new scrambledString(document.getElementById('email'),
-			'emailScramble', '.vasoutetlv@unas.l',
-			[1, 6, 7, 3, 4, 5, 2, 14, 12, 8, 0, 11, 13, 16, 9, 10, 15, 17]);
-			</script>
-		</div>
-	  </div>
-	</div>
-	</dt-byline>
-
-	<table valign="top">
-
-	 <!-- project block -->
-	 <tr>
-	   <td class="project-fig">
-		 <div class="figure">
-		  <img class='project-img' src='assets/misc/overview_fedln.svg' style='width:80%;'/></div>
-	   </td>
-		<td class="project-cell">
-		  <div class="project-title">Federated Learning with Noisy Labels</div>
-		  <dt-byline>
-		  <div class="byline">
-		  <a class="project-link" href="https://federatedml.github.io/FedLN/" target="_blank">Project Page</a>
-		  <a class="project-link" href="https://arxiv.org/pdf/2208.09378.pdf" target="_blank">PDF</a>
-		  <a class="project-link" href="https://github.com/vtsouval/vtsouval.github.io/blob/master/assets/bib/tsouvalas2022federated.bib" target="_blank">BibTex</a>
-		  </div><br><u>Vasileios Tsouvalas</u>, Aaqib Saeed, Tanir Ozcelebi, Nirvana Meratnia <br><br>
-		Short Paper @ <a class="project-link" href="https://sites.google.com/view/interpolation-workshop" target="_blank">Interpolation and Beyond - Workshop at NeurIPS 2022</a>
-		  <br><br>
-		  Federated learning (FL) approaches assume high-quality labels are readily available on users' devices; in reality, label noise can naturally occur in the FL setting and follows a non-i.i.d. distribution among clients. Here, we propose FedLN, a framework to deal with label noise across different FL training stages: FL initialization, on-device model training, and server-side model aggregation.<br><br>
-		  Extensive experiments on various publicly available vision and audio datasets demonstrate a 24% improvement on average compared to other existing methods for a label noise level of 70%. We further validate the efficiency of FedLN in human-annotated real-world noisy datasets and report a 9% increase on average in models' recognition performance.      
-		</td>
-	  </tr>
-
-	 <!-- project block -->
-	<tr>
-			<td class="project-fig">
-			  <div class="figure">
-			   <img class='project-img' src='assets/misc/overview_fedser.svg' style='width:95%;'/></div>
-			</td>
-			 <td class="project-cell">
-			   <div class="project-title">Privacy-preserving Speech Emotion Recognition through Semi-Supervised Federated Learning</div>
-			   <dt-byline>
-				<div class="byline">
-				<a class="project-link" href="https://arxiv.org/pdf/2202.02611.pdf" target="_blank">PDF</a>
-				<a class="project-link" href="https://ieeexplore.ieee.org/document/9767445" target="_blank">Link (Official)</a>
-				<!--a class="project-link" href="https://github.com/FederatedML/FedSTAR " target="_blank">Code</a-->
-				<a class="project-link" href="https://github.com/vtsouval/vtsouval.github.io/blob/master/assets/bib/tsouvalas2022fedser.bib" target="_blank">BibTex</a>
-				</div><br><u>Vasileios Tsouvalas</u>,Tanir Ozcelebi, Nirvana Meratnia @ <a class="project-link" href="https://percom.org/PerCom2022/" target="_blank">IEEE PerCom 2022</a>
-				<br><br>
-				Speech Emotion Recognition (SER) refers to the recognition of human emotions from natural speech. If done accurately, it can offer a number of benefits in building human-centered context-aware intelligent systems. Existing SER approaches are largely centralized, without considering users' privacy. Federated Learning (FL) is a distributed machine learning paradigm dealing with decentralization of privacy-sensitive personal data. In this paper, we present a privacy-preserving and data-efficient SER approach by utilizing the concept of FL. To the best of our knowledge, this is the first federated SER approach, which utilizes self-training learning in conjunction with federated learning to exploit both labeled and unlabeled on-device data. <br><br>
-				Our experimental evaluations on the IEMOCAP dataset shows that our federated approach can learn generalizable SER models even under low availability of data labels and highly non-i.i.d. distributions. We show that our approach with as few as 10% labeled data, on average, can improve the recognition rate by 8.67% compared to the fully-supervised federated counterparts.
-			 </td>
-		</tr>
-
-	 <!-- project block -->
-	  <tr>
-	   <td class="project-fig">
-		 <div class="figure">
-		  <img class='project-img' src='assets/misc/overview_fedstar.svg' style='width:95%;'/></div>
-	   </td>
-		<td class="project-cell">
-		  <div class="project-title">Federated Self-Training for Semi-Supervised Audio Recognition</div>
-		  <dt-byline>
-		  <div class="byline">
-		  <a class="project-link" href="https://arxiv.org/pdf/2107.06877.pdf" target="_blank">PDF</a>
-		  <a class="project-link" href="https://dl.acm.org/doi/10.1145/3520128 " target="_blank">Link (Official)</a>
-		  <a class="project-link" href="https://github.com/FederatedML/FedSTAR " target="_blank">Code</a>
-			  <a class="project-link" href="https://github.com/vtsouval/vtsouval.github.io/blob/master/assets/bib/tsouvalas2021federated.bib" target="_blank">BibTex</a>
-			</div><br><u>Vasileios Tsouvalas</u>, Aaqib Saeed, Tanir Ozcelebi @ <a class="project-link" href="https://dl.acm.org/journal/tecs" target="_blank">ACM TECS 2022</a><br><br>
-		<a class="project-link" href="https://ieeexplore.ieee.org/document/9746356" target="_blank">Short Paper</a>@ <a class="project-link" href="https://2022.ieeeicassp.org/" target="_blank"> IEEE ICASSP 2022</a>
-			<br><br>
-		Federated Learning is a distributed machine learning paradigm dealing with decentralized and personal datasets. Since data reside on devices like smartphones and virtual assistants, labeling is entrusted to clients or labels are extracted in an automated way for learning models. However, in the case of audio data, acquiring semantic annotations can be prohibitively expensive and time-consuming. As a result, an abundance of audio samples remains unlabeled and unexploited. We propose FedSTAR, a semi-supervised learning approach for audio recognition. FedSTAR leverages unlabeled data via self-training to improve the generalization of audio models. <br><br>
-		We show that with as little as 3% labeled data available, FedSTAR on average can improve the recognition rate by 13.28% compared to the fully supervised federated model. We further demonstrate that self-supervised pre-trained models can accelerate the training of on-device models, significantly improving convergence within fewer training rounds.
-		</td>
-	  </tr>
-
-	</table>
-	</dt-article>
-	<dt-appendix>
-		<h2>Acknowledgments</h2>
-		<p>This site was prepared using the <a href="https://distill.pub">Distill</a> <a href="https://github.com/distillpub/template">template</a> which is adapted and kindly open-sourced by <a href="https://sermanet.github.io/">Pierre Sermanet</a>.</p>
-	</dt-appendix>
-	</div>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="shell nav-wrap"><a class="wordmark" href="#" aria-label="Vasileios Tsouvalas, home">VT<span>.</span></a><nav aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#about">About</a><a href="cv.html">CV <span aria-hidden="true">↗</span></a><a href="#contact">Contact</a></nav></div></header>
+<main id="main">
+<section class="hero shell" aria-labelledby="name">
+  <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Postdoctoral researcher · TU Eindhoven</div>
+  <div class="hero-grid"><div><h1 id="name">Vasileios<br><em>Tsouvalas.</em></h1><p class="hero-statement">Learning across devices.<br>Reasoning beyond predictions.</p></div>
+  <div class="hero-bio"><p>I research how machine learning models can learn efficiently from distributed data, adapt to different tasks, and reason about complex problems.</p><p>My current work at <a href="https://research.tue.nl/en/persons/vasilis-tsouvalas/">Eindhoven University of Technology</a> focuses on reasoning in language models, building on my research in federated learning and foundation-model adaptation.</p><div class="social-links"><a href="https://scholar.google.com/citations?user=FgPQz3QAAAAJ&hl=en">Scholar ↗</a><a href="https://github.com/vtsouval">GitHub ↗</a><a href="https://orcid.org/0000-0001-9143-1188">ORCID ↗</a><a href="mailto:v.tsouvalas@tue.nl">Email ↗</a></div></div></div>
+  <div class="hero-bottom"><span>Machine learning · Distributed intelligence</span><a href="#selected">Explore selected work <span aria-hidden="true">↓</span></a></div>
+</section>
+<section id="research" class="research section shell" aria-labelledby="research-title"><div class="section-heading"><p class="eyebrow">01 / Research</p><h2 id="research-title">Questions that guide my work.</h2></div>
+<div class="themes"><article><span class="theme-number">01</span><h3>Reasoning in <br>language models</h3><p>Studying how language models solve problems, with a focus on evaluating their reasoning.</p><span class="theme-caption">Current research</span></article><article><span class="theme-number">02</span><h3>Efficient, distributed <br>model adaptation</h3><p>Adapting foundation models across devices and tasks under communication and computation constraints.</p><a href="#selected">DeltaMask · MaTU · Split learning ↗</a></article><article><span class="theme-number">03</span><h3>Learning with <br>imperfect supervision</h3><p>Making use of unlabeled and noisily labeled data for learning across heterogeneous clients.</p><a href="https://federatedml.github.io/FedLN/">FedLN · FedSTAR ↗</a></article></div></section>
+<section id="selected" class="selected section" aria-labelledby="selected-title"><div class="shell"><div class="section-heading split-heading"><div><p class="eyebrow">02 / Selected work</p><h2 id="selected-title">From research question<br>to working method.</h2></div><a class="text-link" href="#publications">All publications <span aria-hidden="true">↗</span></a></div>
+<div class="feature-grid">
+<article class="feature feature-blue"><div class="feature-top"><span>Foundation models / Communication</span><span>2024</span></div><h3>DeltaMask<span>Less to send.<br>More to learn.</span></h3><p>Fine-tune vision foundation models through probabilistic masks, compressing client updates to reduce communication.</p><div class="feature-fact"><strong>0.09 <small>bpp</small></strong><span>Lowest bitrate reported in the paper’s evaluation</span></div><div class="feature-bottom"><span>IEEE BigData 2024</span><a href="https://research.tue.nl/files/349909071/2024337517.pdf">Read paper ↗</a></div></article>
+<article class="feature feature-light"><div class="feature-top"><span>Federated learning / Task diversity</span><span>2025</span></div><h3>MaTU<span>Different tasks.<br>Shared knowledge.</span></h3><p>A unified task vector and lightweight task-specific modulators let clients collaborate across diverse learning tasks.</p><div class="task-diagram" aria-label="Conceptual illustration of multiple task vectors combined into a unified task vector"><span>Task A</span><span>Task B</span><span>Task C</span><div>↓ &nbsp; ↓ &nbsp; ↓</div><strong>Unified task vector</strong></div><div class="feature-bottom"><span>FedGenAI @ IJCAI 2025 · Workshop</span><a href="https://arxiv.org/abs/2502.06376">Read paper ↗</a></div></article>
+<article class="feature feature-small"><div class="feature-top"><span>Privacy / Efficient aggregation</span><span>2025</span></div><h3>EncCluster</h3><p>Combining weight clustering, probabilistic filters and functional encryption for scalable encrypted aggregation in federated learning.</p><div class="feature-bottom"><span>Pervasive and Mobile Computing</span><a href="https://arxiv.org/abs/2406.09152">Read paper ↗</a></div></article>
+<article class="feature feature-small"><div class="feature-top"><span>Robustness / Label noise</span><span>2024</span></div><h3>FedLN</h3><p>Addressing noisy labels at initialization, on-device training and aggregation to improve federated learning under imperfect supervision.</p><div class="feature-bottom"><span>ACM TIST</span><a href="https://federatedml.github.io/FedLN/">Explore project ↗</a></div></article>
+</div></div></section>
+<section id="publications" class="section shell" aria-labelledby="publications-title"><div class="section-heading split-heading"><div><p class="eyebrow">03 / Publications</p><h2 id="publications-title">Papers &amp; preprints.</h2></div><a class="text-link" href="https://scholar.google.com/citations?user=FgPQz3QAAAAJ&hl=en&sortby=pubdate">Google Scholar ↗</a></div>
+<div class="filters" aria-label="Filter publications by research area" hidden><button type="button" data-filter="all" aria-pressed="true">All work</button><button type="button" data-filter="foundation" aria-pressed="false">Foundation models</button><button type="button" data-filter="federated" aria-pressed="false">Federated learning</button><button type="button" data-filter="efficient" aria-pressed="false">Efficiency</button><button type="button" data-filter="privacy" aria-pressed="false">Privacy &amp; security</button><button type="button" data-filter="supervision" aria-pressed="false">Limited supervision</button></div>
+<p id="publication-count" class="count" aria-live="polite"></p>
+<div id="publication-list">
+<!-- PUBLICATIONS START -->
+<article class="publication" data-topics="efficient foundation">
+  <div class="pub-year">2026</div>
+  <div><div class="pub-meta">WAFL @ ECML-PKDD <span>· Workshop</span></div>
+  <h3>AutoEncoder-Compressed Parallel Split Learning for Pre-Trained Model Fine-Tuning</h3><p class="authors">B. Meuwissen, <strong>V. Tsouvalas</strong>, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2607.17913">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="federated foundation">
+  <div class="pub-year">2025</div>
+  <div><div class="pub-meta">FedGenAI @ IJCAI <span>· Workshop</span></div>
+  <h3>Many-Task Federated Fine-Tuning via Unified Task Vectors</h3><p class="authors"><strong>V. Tsouvalas</strong>, T. Ozcelebi, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2502.06376">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="efficient foundation">
+  <div class="pub-year">2025</div>
+  <div><div class="pub-meta">FedGenAI @ IJCAI <span>· Workshop</span></div>
+  <h3>Fine-Tuning Multimodal Transformers on Edge: A Parallel Split Learning Approach</h3><p class="authors">T. Fudala, <strong>V. Tsouvalas</strong>, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2502.06355">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="privacy federated">
+  <div class="pub-year">2025</div>
+  <div><div class="pub-meta">ACM CIKM <span>· Conference</span></div>
+  <h3>EFU: Enforcing Federated Unlearning via Functional Encryption</h3><p class="authors">S. Mohammadi, <strong>V. Tsouvalas</strong>, I. Symeonidis, A. Balador, T. Ozcelebi, F. Flammini, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2508.07873">Paper <span aria-hidden="true">↗</span></a> <a href="https://doi.org/10.1145/3746252.3761091">Published version <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="privacy federated efficient">
+  <div class="pub-year">2025</div>
+  <div><div class="pub-meta">Pervasive and Mobile Computing <span>· Journal</span></div>
+  <h3>EncCluster: Scalable Functional Encryption in Federated Learning through Weight Clustering and Probabilistic Filters</h3><p class="authors"><strong>V. Tsouvalas</strong>, S. Mohammadi, A. Balador, T. Ozcelebi, F. Flammini, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2406.09152">Paper <span aria-hidden="true">↗</span></a> <a href="https://www.sciencedirect.com/science/article/pii/S1574119225000100">Published version <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="federated foundation efficient">
+  <div class="pub-year">2024</div>
+  <div><div class="pub-meta">IEEE BigData 2024 <span>· Conference</span></div>
+  <h3>DeltaMask: Minimizing Communication in Federated Fine-Tuning of Vision Foundation Models</h3><p class="authors"><strong>V. Tsouvalas</strong>, Y. M. Asano, A. Saeed</p>
+  <div class="paper-links"><a href="https://research.tue.nl/files/349909071/2024337517.pdf">Paper <span aria-hidden="true">↗</span></a> <a href="https://arxiv.org/abs/2311.17299">Preprint <span aria-hidden="true">↗</span></a></div><details><summary>Related publication</summary><ul><li><a href="https://openreview.net/forum?id=VDgx8JLtid">Federated Fine-Tuning of Vision Foundation Models via Probabilistic Masking</a> — FM-Wild @ ICML 2024 · Workshop</li></ul></details></div>
+</article>
+<article class="publication" data-topics="federated supervision">
+  <div class="pub-year">2024</div>
+  <div><div class="pub-meta">ACM TIST <span>· Journal</span></div>
+  <h3>Labeling Chaos to Learning Harmony: Federated Learning with Noisy Labels</h3><p class="authors"><strong>V. Tsouvalas</strong>, A. Saeed, T. Ozcelebi, N. Meratnia</p>
+  <div class="paper-links"><a href="https://doi.org/10.1145/3626242">Paper <span aria-hidden="true">↗</span></a> <a href="https://federatedml.github.io/FedLN/">Project <span aria-hidden="true">↗</span></a></div><details><summary>Related publication</summary><ul><li><a href="https://openreview.net/pdf?id=gNHMC4I0Pva">Federated Learning with Noisy Labels: Achieving Generalization in the Face of Label Noise</a> — INTERPOLATE @ NeurIPS 2022 · Workshop</li></ul></details></div>
+</article>
+<article class="publication" data-topics="federated efficient">
+  <div class="pub-year">2024</div>
+  <div><div class="pub-meta">IEEE ICASSP <span>· Conference</span></div>
+  <h3>Communication-Efficient Federated Learning through Adaptive Weight Clustering and Server-Side Distillation</h3><p class="authors"><strong>V. Tsouvalas</strong>, A. Saeed, T. Ozcelebi, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2401.14211">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="federated efficient">
+  <div class="pub-year">2024</div>
+  <div><div class="pub-meta">IEEE EDGE <span>· Conference</span></div>
+  <h3>FedCode: Communication-Efficient Federated Learning via Transferring Codebooks</h3><p class="authors">S. Khalilian, <strong>V. Tsouvalas</strong>, T. Ozcelebi, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2311.09270">Paper <span aria-hidden="true">↗</span></a> <a href="https://ieeexplore.ieee.org/document/10646450/">Published version <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="privacy federated">
+  <div class="pub-year">2024</div>
+  <div><div class="pub-meta">UbiSec 2024 · Proceedings published 2025 <span>· Conference</span></div>
+  <h3>On the Effectiveness of Invisible Backdoor Attacks in Federated Learning</h3><p class="authors">M. Marinus, <strong>V. Tsouvalas</strong>, N. Meratnia</p>
+  <div class="paper-links"><a href="https://doi.org/10.1007/978-981-96-4836-8_13">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="supervision efficient">
+  <div class="pub-year">2023</div>
+  <div><div class="pub-meta">arXiv:2305.03058 <span>· Preprint</span></div>
+  <h3>Plug-and-Play Multilingual Few-Shot Spoken Words Recognition</h3><p class="authors">A. Saeed, <strong>V. Tsouvalas</strong></p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2305.03058">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="supervision">
+  <div class="pub-year">2023</div>
+  <div><div class="pub-meta">PerFail @ IEEE PerCom <span>· Workshop</span></div>
+  <h3>On the Efficacy of Meta-Learning for Domain Generalization in Speech Emotion Recognition</h3><p class="authors">R. K. Gandhi, <strong>V. Tsouvalas</strong>, N. Meratnia</p>
+  <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10150265/">Paper <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<article class="publication" data-topics="federated supervision">
+  <div class="pub-year">2022</div>
+  <div><div class="pub-meta">ACM TECS <span>· Journal</span></div>
+  <h3>Federated Self-Training for Semi-Supervised Audio Recognition</h3><p class="authors"><strong>V. Tsouvalas</strong>, A. Saeed, T. Ozcelebi</p>
+  <div class="paper-links"><a href="https://doi.org/10.1145/3520128">Paper <span aria-hidden="true">↗</span></a> <a href="https://github.com/FederatedML/FedSTAR">Code <span aria-hidden="true">↗</span></a></div><details><summary>Related publication</summary><ul><li><a href="https://ieeexplore.ieee.org/document/9746356">Federated Self-Training for Data-Efficient Audio Recognition</a> — IEEE ICASSP 2022 · Conference</li></ul></details></div>
+</article>
+<article class="publication" data-topics="federated supervision privacy">
+  <div class="pub-year">2022</div>
+  <div><div class="pub-meta">EmotionAware @ IEEE PerCom <span>· Workshop</span></div>
+  <h3>Privacy-Preserving Speech Emotion Recognition through Semi-Supervised Federated Learning</h3><p class="authors"><strong>V. Tsouvalas</strong>, T. Ozcelebi, N. Meratnia</p>
+  <div class="paper-links"><a href="https://arxiv.org/abs/2202.02611">Paper <span aria-hidden="true">↗</span></a> <a href="https://ieeexplore.ieee.org/document/9767445">Published version <span aria-hidden="true">↗</span></a></div></div>
+</article>
+<!-- PUBLICATIONS END -->
+</div></section>
+<section id="about" class="about section" aria-labelledby="about-title"><div class="shell about-grid"><div><p class="eyebrow">04 / Academic profile</p><h2 id="about-title">Research.<br>Teaching.<br><em>Collaboration.</em></h2><p>I completed my PhD at TU Eindhoven in 2025, studying data and communication efficiency in federated learning with Nirvana Meratnia and Tanir Ozcelebi.</p><a class="text-link" href="cv.html">Academic CV ↗</a></div><div class="milestones"><article><span class="eyebrow">2025 — Present</span><h3>Postdoctoral Researcher</h3><p>Language-model reasoning · Eindhoven University of Technology</p></article><article><span class="eyebrow">2025 / Doctoral thesis</span><h3>Chaos to Harmony</h3><p>Taming Heterogeneity and Communication Bottlenecks in Federated Learning.</p><a href="https://research.tue.nl/en/publications/chaos-to-harmony-taming-heterogeneity-and-communication-bottlenec/">Read the thesis ↗</a></article><article><span class="eyebrow">2022 / Recognition</span><h3>Best Master Thesis Award</h3><p>Department of Mathematics and Computer Science, TU Eindhoven.</p></article><article><span class="eyebrow">Teaching &amp; supervision</span><h3>Supporting the next research questions</h3><p>Teaching assistance in Machine Learning for Industry and Internet of Things, and supervision of student research in federated and split learning.</p><a href="cv.html#teaching">Teaching &amp; supervision ↗</a></article></div></div></section>
+<section id="contact" class="contact section shell" aria-labelledby="contact-title"><p class="eyebrow">05 / Contact</p><div class="contact-grid"><div><h2 id="contact-title">Let’s exchange ideas.</h2><p>For research conversations, collaborations, or questions about my work.</p><a class="email-link" href="mailto:v.tsouvalas@tue.nl">v.tsouvalas@tue.nl <span aria-hidden="true">↗</span></a></div><div class="contact-aside">Eindhoven University of Technology<br>Eindhoven, the Netherlands<br><a href="https://www.linkedin.com/in/vtsouval/">LinkedIn ↗</a></div></div></section>
+</main>
+<footer class="shell footer"><span>© 2026 Vasileios Tsouvalas</span><span>Last updated October 2026</span><a href="#">Back to top ↑</a></footer>
 </body>
-
-<script>
-	var block_fn;
-	function showPageCallback(){
-	  block_fn = setTimeout(showPage, 300);
-	}
-	function showPage() {
-	  document.getElementById("main_body").style.display = "block";
-	}
-</script>
-
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-79826043-1', 'auto');
-	ga('send', 'pageview');
-</script>
+</html>

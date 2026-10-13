@@ -64,4 +64,4 @@ First review: layout, research emphasis and selected projects. Second review: ex
 
 ## Review status
 
-This is the proposed written design for the first revision. The repository is cloned and the baseline is ready for local preview; the redesigned homepage has not yet been implemented.
+The user requested a local copy and iterative revision. The first local implementation follows this design; research emphasis and content are provisional for the next user review. The original site remains in Git history and no changes have been pushed.
