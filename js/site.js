@@ -51,10 +51,10 @@
     yearSelect.value = state.year;
     clear.hidden = !state.query;
     empty.hidden = visible > 0;
-    count.textContent = `${visible} of ${records.length} research works`;
+    count.textContent = visible === records.length ? `${visible} publications` : `${visible} of ${records.length} publications`;
     if (syncURL) {
       const url = window.location.pathname + search.writeState(window.location.search, state) + window.location.hash;
-      window.history.replaceState(window.history.state, '', url);
+      try { window.history.replaceState(window.history.state, '', url); } catch (_) { /* Filtering also works when local-file history is restricted. */ }
     }
   }
 
@@ -88,6 +88,22 @@
     state.topic = button.dataset.filter;
     render();
   });
+  for (const link of document.querySelectorAll('[data-research-topic]')) {
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const topic = link.dataset.researchTopic;
+      if (!options.topics.includes(topic)) return;
+      event.preventDefault();
+      // A research direction starts a fresh view, independent of earlier searches.
+      state = { query: '', topic, year: 'all' };
+      const url = window.location.pathname + search.writeState(window.location.search, state) + '#publications';
+      try { window.history.pushState(window.history.state, '', url); } catch (_) { /* Keep local navigation functional without History API support. */ }
+      render(false);
+      const heading = document.querySelector('#publications-title');
+      heading.focus({ preventScroll: true });
+      document.querySelector('#publications').scrollIntoView({ block: 'start' });
+    });
+  }
   for (const keyword of document.querySelectorAll('.pub-keyword[data-keyword]')) {
     const button = document.createElement('button');
     button.type = 'button';

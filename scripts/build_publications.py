@@ -4,6 +4,7 @@ import json
 import re
 import unicodedata
 from pathlib import Path
+from build_icons import build_icons
 
 ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / 'data/publications.json').read_text())
@@ -56,4 +57,5 @@ assert text.count(start) == text.count(end) == 1
 before = text.split(start)[0]
 after = text.split(end)[1]
 page.write_text(before + start + '\n' + '\n'.join(rows) + '\n' + end + after)
+build_icons([page])
 print(f'Rendered {len(rows)} publication entries with {sum(len(p.get("related", [])) for p in data)} related versions.')

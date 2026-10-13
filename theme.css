@@ -1,0 +1,29 @@
+/* Theme controls share the page palette; load after the page stylesheets. */
+.theme-picker { position: relative; margin-left: auto; flex-shrink: 0; }
+#theme-toggle { width: auto; min-width: 87px; gap: 6px; padding: 0 9px; color: var(--secondary); font-size: 12px; }
+#theme-toggle:hover, #theme-toggle[aria-expanded='true'] { color: var(--accent); border-color: var(--accent); background: var(--subtle); }
+#theme-toggle .theme-chevron { width: 11px; height: 11px; flex-basis: 11px; }
+#theme-toggle[aria-expanded='true'] .theme-chevron { transform: rotate(180deg); }
+.theme-menu { position: absolute; z-index: 30; top: calc(100% + 9px); right: 0; width: 150px; min-inline-size: 0; margin: 0; padding: 5px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--bg); box-shadow: 0 5px 20px rgb(0 0 0 / 10%); }
+.theme-menu label { display: flex; align-items: center; gap: 9px; min-height: 39px; padding: 6px 8px; border-radius: 4px; cursor: pointer; font-size: 12px; line-height: 1.5; }
+.theme-menu label:hover, .theme-menu label:focus-within { background: var(--subtle); }
+.theme-menu input { width: 14px; height: 14px; margin: 0; flex-shrink: 0; accent-color: var(--accent); }
+.theme-menu input:checked + span { color: var(--accent); }
+.theme-menu small { display: block; color: var(--muted); font-size: 10px; }
+
+/* A usable system theme remains available when JavaScript is disabled. */
+@media screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --bg: #0e1216; --ink: #e7edf3; --secondary: #b4bfc9; --muted: #94a2ae;
+    --accent: #6cb4f2; --line: #28323b; --subtle: #151c23; --chip: #162b3e;
+    --focus: #f5ba78; --header: rgb(14 18 22 / 96%);
+  }
+}
+@media (max-width: 560px) {
+  #theme-toggle { min-width: 80px; gap: 5px; padding-inline: 7px; font-size: 11px; }
+}
+@media print {
+  :root, :root[data-theme] { color-scheme: light; }
+  .theme-picker { display: none; }
+}

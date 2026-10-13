@@ -45,7 +45,10 @@ class PublicationBuildTests(unittest.TestCase):
             root = Path(directory)
             (root / 'scripts').mkdir()
             (root / 'data').mkdir()
+            (root / 'assets').mkdir()
             shutil.copyfile(ROOT / 'scripts/build_publications.py', root / 'scripts/build_publications.py')
+            shutil.copyfile(ROOT / 'scripts/build_icons.py', root / 'scripts/build_icons.py')
+            shutil.copyfile(ROOT / 'assets/icons.svg', root / 'assets/icons.svg')
             (root / 'data/publications.json').write_text(json.dumps(papers))
             (root / 'index.html').write_text('<main><!-- PUBLICATIONS START --><!-- PUBLICATIONS END --></main>')
             subprocess.run(['python3', str(root / 'scripts/build_publications.py')], check=True, capture_output=True)
@@ -83,6 +86,12 @@ class PublicationBuildTests(unittest.TestCase):
         self.assertEqual([attributes.get('data-keyword') for tag, attributes in parsed.keyword_elements],
                          ['speech', 'noise', 'fine-tuning', 'edge'])
         self.assertTrue(all(tag == 'span' for tag, attributes in parsed.keyword_elements))
+
+    def test_publication_icons_render_without_external_svg_requests(self):
+        markup, _ = self.render([self.paper])
+        self.assertNotIn('<use', markup)
+        self.assertIn('data-icon="file"', markup)
+        self.assertIn('viewBox="0 0 24 24"', markup)
 
 
 if __name__ == '__main__':

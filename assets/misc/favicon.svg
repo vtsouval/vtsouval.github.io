@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="9" fill="#254e72"/><text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="32" fill="#f6f5f1">VT</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    :root { color-scheme: light dark; color: #254e72; --letter: #fff; }
+    @media (prefers-color-scheme: dark) { :root { color: #e7edf3; --letter: #0e1216; } }
+    .tile { fill: currentColor; }
+    .letters { fill: var(--letter); }
+  </style>
+  <rect class="tile" width="64" height="64" rx="11"/>
+  <path class="letters" d="M12 20h6l7 23 7-23h6L28 47h-6L12 20Zm26 0h16v5h-5v22h-6V25h-5v-5Z"/>
+</svg>

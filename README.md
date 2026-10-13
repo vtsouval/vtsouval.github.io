@@ -16,7 +16,9 @@ Run `python3 -m http.server 8000 --bind 127.0.0.1` in this directory and open ht
 - `scripts/build_publications.py`: run after editing publication data to update the committed static HTML.
 - `js/publication-search.js`: normalization, word-prefix matching, combined filters and URL state.
 - `js/site.js`: search controls, topic counts, clickable keywords and keyboard shortcuts. All publication content is available without JavaScript.
-- `js/theme.js`: system-aware light/dark theme and saved preference.
+- `js/theme.js` and `theme.css`: Auto (system), Light and Dark themes, persistent choices, and an accessible theme picker.
+- `js/research.js`: manual, swipeable research carousel; each direction opens a fresh publication filter.
+- `assets/icons.svg`: source for the adaptive icons; run `python3 scripts/build_icons.py` after editing icons or HTML. The builder embeds SVG geometry, so icons need no external sprite request. Publication generation also rebuilds its icons.
 - `assets/fonts/`: self-hosted Open Sans and its SIL Open Font License.
 - `assets/certificates/`: the author's NVIDIA competency certificates, linked from the CV alongside the official workshop pages.
 - `docs/resource-audit.md`: paper-to-repository evidence and keyword/summary sources.
@@ -28,10 +30,11 @@ Search covers titles, authors, venues, years, topics, keywords, summaries and re
 ```sh
 python3 scripts/build_publications.py
 python3 tests/publications.test.py
-node --test tests/publication-search.test.cjs
+python3 tests/icons.test.py
+node --test tests/*.test.cjs
 ```
 
-The Python tests exercise generated static markup and search metadata. The Node tests exercise matching and URL/filter behavior. Design and source notes are in `docs/iteration-2.md`, `docs/iteration-3.md` and `docs/iteration-4.md`.
+The Python tests exercise generated static markup and search metadata. The Node tests exercise matching, URL/filter behavior and theme selection. Icon tests check self-contained SVG generation and rebuild stability. Design and source notes are in `docs/iteration-2.md`, `docs/iteration-3.md` , `docs/iteration-4.md` and `docs/iteration-5.md`.
 
 The original site remains available in Git at commit `ffd25dc`; legacy assets and the original licence are retained. No remote changes have been pushed.
 
