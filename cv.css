@@ -50,9 +50,10 @@
 .cv-conference-list li, .cv-service-list li { font-size: 13.5px; }
 .cv-conference-list strong, .cv-service-list strong { font-weight: 600; color: var(--ink); }
 .cv-conference-list span, .cv-service-list span { color: var(--muted); }
-.cv-talk-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
-.cv-talk-links a, .cv-publication-link { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; }
-.cv-talk-links .icon, .cv-publication-link .icon { width: 14px; height: 14px; flex-basis: 14px; }
+.cv-talk-links, .cv-resource-links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 12px; }
+.cv-talk-links a, .cv-resource-links a, .cv-publication-link { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; }
+.cv-talk-links .icon, .cv-resource-links .icon, .cv-publication-link .icon { width: 14px; height: 14px; flex-basis: 14px; }
+.resource-format { color: var(--muted); font-size: 9px; letter-spacing: .03em; }
 .cv-publication-link { margin-top: 7px; }
 
 @media (max-width: 880px) {

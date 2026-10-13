@@ -18,6 +18,7 @@ Run `python3 -m http.server 8000 --bind 127.0.0.1` in this directory and open ht
 - `js/site.js`: search controls, topic counts, clickable keywords and keyboard shortcuts. All publication content is available without JavaScript.
 - `js/theme.js`: system-aware light/dark theme and saved preference.
 - `assets/fonts/`: self-hosted Open Sans and its SIL Open Font License.
+- `assets/certificates/`: the author's NVIDIA competency certificates, linked from the CV alongside the official workshop pages.
 - `docs/resource-audit.md`: paper-to-repository evidence and keyword/summary sources.
 
 Search covers titles, authors, venues, years, topics, keywords, summaries and related versions. All query terms must match; accent and punctuation differences are normalized. Topic and year filters combine with the query, and `q`, `topic` and `year` URL parameters preserve the current view. Clicking a keyword starts a fresh search across all topics and years. Press `/` to focus search or Escape to clear the query. Topic counts reflect the query and year and can overlap.
@@ -30,7 +31,7 @@ python3 tests/publications.test.py
 node --test tests/publication-search.test.cjs
 ```
 
-The Python tests exercise generated static markup and search metadata. The Node tests exercise matching and URL/filter behavior. Design and source notes are in `docs/iteration-2.md` and `docs/iteration-3.md`.
+The Python tests exercise generated static markup and search metadata. The Node tests exercise matching and URL/filter behavior. Design and source notes are in `docs/iteration-2.md`, `docs/iteration-3.md` and `docs/iteration-4.md`.
 
 The original site remains available in Git at commit `ffd25dc`; legacy assets and the original licence are retained. No remote changes have been pushed.
 
