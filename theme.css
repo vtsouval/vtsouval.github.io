@@ -23,6 +23,9 @@
 @media (max-width: 560px) {
   #theme-toggle { min-width: 80px; gap: 5px; padding-inline: 7px; font-size: 11px; }
 }
+@media screen and (any-pointer: coarse) {
+  .theme-menu label { min-height: 44px; }
+}
 @media print {
   :root, :root[data-theme] { color-scheme: light; }
   .theme-picker { display: none; }

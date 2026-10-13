@@ -1,6 +1,6 @@
 # Vasileios Tsouvalas — academic website
 
-Local revision of https://vtsouval.github.io. Static HTML/CSS with optional publication search and filtering; no package installation or runtime API is required.
+Source for https://vtsouval.github.io, published through GitHub Pages from `main`. Static HTML/CSS with optional publication search and filtering; no package installation or runtime API is required.
 
 ## Preview
 
@@ -11,6 +11,7 @@ Run `python3 -m http.server 8000 --bind 127.0.0.1` in this directory and open ht
 - `index.html`: introduction, research themes, publications, research code and academic profile.
 - `style.css`: shared visual design and responsive layouts.
 - `cv.html` and `cv.css`: responsive academic CV, with a section index, aligned dates and print styling.
+- `js/layout.js`: keeps anchor clearance and the CV index aligned with the actual header height after wrapping, rotation, zoom and font loading.
 - `js/cv.js`: optional current-section highlighting for the CV index; navigation remains functional without JavaScript.
 - `data/publications.json`: publication records, topics, searchable keywords, summaries, verified resources and related versions.
 - `scripts/build_publications.py`: run after editing publication data to update the committed static HTML.
@@ -34,9 +35,9 @@ python3 tests/icons.test.py
 node --test tests/*.test.cjs
 ```
 
-The Python tests exercise generated static markup and search metadata. The Node tests exercise matching, URL/filter behavior and theme selection. Icon tests check self-contained SVG generation and rebuild stability. Design and source notes are in `docs/iteration-2.md`, `docs/iteration-3.md` , `docs/iteration-4.md` and `docs/iteration-5.md`.
+The Python tests exercise generated static markup and search metadata. The Node tests exercise matching, URL/filter behavior and theme selection. Icon tests check self-contained SVG generation and rebuild stability. Layout tests cover header changes, font loading and resize fallback. Design and source notes are in `docs/iteration-2.md`, `docs/iteration-3.md` , `docs/iteration-4.md` `docs/iteration-5.md` and `docs/iteration-6.md`.
 
-The original site remains available in Git at commit `ffd25dc`; legacy assets and the original licence are retained. No remote changes have been pushed.
+The original site remains available in Git at commit `ffd25dc`; legacy assets and the original licence are retained. The revised site is published on GitHub Pages; the original revision branch is retained.
 
 ## Content review for the next iteration
 

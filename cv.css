@@ -8,7 +8,7 @@
 .cv-profiles a { font-size: 13px; }
 .cv-profiles .icon { width: 15px; height: 15px; flex-basis: 15px; }
 .cv-layout { display: grid; grid-template-columns: 184px minmax(0, 1fr); gap: 55px; align-items: start; padding-top: 38px; }
-.cv-index { position: sticky; top: 96px; }
+.cv-index { position: sticky; top: var(--anchor-offset); max-height: calc(100vh - var(--anchor-offset) - 16px); max-height: calc(100dvh - var(--anchor-offset) - 16px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; padding: 4px; margin: -4px; }
 .cv-index h2 { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 0 0 13px; }
 .cv-index nav { display: flex; flex-direction: column; align-items: stretch; gap: 2px; border-left: 1px solid var(--line); }
 .cv-index a { font-size: 12px; line-height: 1.6; padding: 7px 0 7px 15px; margin-left: -1px; border-left: 2px solid transparent; color: var(--muted); }
@@ -65,7 +65,7 @@
   .cv-document { padding-top: 38px; }
   .cv-profile h1 { font-size: 34px; }
   .cv-layout { display: block; padding-top: 24px; }
-  .cv-index { position: static; margin-bottom: 30px; }
+  .cv-index { position: static; max-height: none; overflow: visible; margin-bottom: 30px; }
   .cv-index h2 { margin-bottom: 10px; }
   .cv-index nav { flex-direction: row; flex-wrap: wrap; border: 0; gap: 7px 8px; }
   .cv-index a { margin: 0; border: 1px solid var(--line); padding: 5px 9px; font-size: 11px; border-radius: 4px; }
@@ -88,6 +88,10 @@
   .cv-date { display: flex; flex-wrap: wrap; gap: 5px; font-size: 11px; }
   .cv-supervision-list li { grid-template-columns: 1fr; gap: 2px; }
   .cv-entry h3 { font-size: 15px; }
+}
+@media screen and (any-pointer: coarse) {
+  .cv-index a, .cv-talk-links a, .cv-resource-links a, .cv-publication-link { min-height: 44px; display: inline-flex; align-items: center; }
+  .cv-talk-links, .cv-resource-links { row-gap: 4px; }
 }
 @media print {
   @page { margin: 17mm; }

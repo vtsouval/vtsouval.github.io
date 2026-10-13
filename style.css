@@ -8,6 +8,8 @@
   --bg: #fff; --ink: #14181d; --secondary: #3d4750; --muted: #667380;
   --accent: #0f5fa8; --line: #e5e9ed; --subtle: #f6f8fa; --chip: #edf4fb;
   --focus: #b95f12; --header: rgb(255 255 255 / 96%);
+  --header-height: 67px;
+  --anchor-offset: calc(var(--header-height) + 24px);
 }
 :root[data-theme='dark'] {
   color-scheme: dark;
@@ -16,8 +18,8 @@
   --focus: #f5ba78; --header: rgb(14 18 22 / 96%);
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 96px; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16.5px/1.68 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; scroll-padding-top: var(--anchor-offset); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16.5px/1.68 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; overflow-wrap: break-word; }
 a { color: var(--accent); text-decoration: none; text-underline-offset: 4px; }
 a:hover { text-decoration: underline; }
 button, input, select { font: inherit; }
@@ -182,12 +184,12 @@ details ul { margin-bottom: 0; padding-left: 18px; }
   .research-track { grid-auto-columns: 86%; gap: 12px; }
   .research-card { padding: 20px; }
   .research-heading { align-items: center; }
-  html { scroll-padding-top: 118px; }
+  :root { --header-height: 91px; }
   .shell { padding-inline: 22px; }
-  .nav-wrap { gap: 16px; min-height: 68px; padding-block: 12px; }
+  .nav-wrap { gap: 16px; min-height: 68px; padding-block: 12px; flex-wrap: wrap; }
   .wordmark { display: none; }
-  nav { gap: 5px 17px; flex: 1; }
-  nav a { font-size: 12px; min-height: 28px; display: inline-flex; align-items: center; }
+  .site-header nav { gap: 5px 12px; flex: 1 1 160px; min-width: 0; max-width: 210px; }
+  nav a { font-size: 12px; min-height: 28px; display: inline-flex; align-items: center; max-width: 100%; }
   .icon-button { width: 34px; height: 34px; }
   .hero { display: flex; flex-direction: column-reverse; gap: 24px; padding-block: 34px; }
   .portrait img { width: 110px; height: 110px; }
@@ -226,6 +228,32 @@ details ul { margin-bottom: 0; padding-left: 18px; }
   .footer { flex-direction: column; align-items: flex-start; gap: 12px; font-size: 9px; }
   .footer>div { gap: 16px; }
   .cv-page h1 { font-size: 30px; }
+}
+@media (max-width: 360px) {
+  .shell { padding-inline: 18px; }
+  .nav-wrap { gap: 12px; }
+  .research-controls { gap: 6px; }
+  .research-position { margin-right: 0; }
+}
+/* Keep touch controls comfortable without enlarging the desktop layout. */
+@media screen and (any-pointer: coarse) {
+  .icon-button, .search-field .icon-button { min-width: 44px; min-height: 44px; }
+  .site-header nav a, .social-links a, .paper-links a, .text-link,
+  .button-secondary, .filters button { min-height: 44px; }
+  .site-header nav a, .text-link { display: inline-flex; align-items: center; }
+  .site-header nav a { min-width: 24px; }
+  .search-field input, .year-field select { font-size: 16px; }
+  .year-field select { min-height: 44px; }
+  .year-field { min-width: 132px; }
+  .filters button { font-size: 12px; }
+  .pub-keyword { min-height: 36px; padding: 9px 10px; font-size: 11px; }
+  summary { min-height: 44px; padding-block: 11px; }
+  .paper-links, .social-links { row-gap: 4px; }
+}
+@media screen and (max-width: 560px) and (any-pointer: coarse) {
+  :root { --header-height: 105px; }
+  .nav-wrap { padding-block: 8px; }
+  .site-header nav { row-gap: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   html, .research-track { scroll-behavior: auto; }
