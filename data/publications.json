@@ -10,8 +10,25 @@
       "foundation"
     ],
     "links": {
-      "Paper": "https://arxiv.org/abs/2607.17913"
-    }
+      "Paper": "https://arxiv.org/abs/2607.17913",
+      "Code": "https://github.com/Nousphera/AE_PSL"
+    },
+    "summary": "AE-PSL uses a lightweight autoencoder to compress activations and gradients exchanged during parallel split learning. A two-stage alignment procedure adapts the compressor to a pre-trained foundation model and client-specific feature distributions before distributed fine-tuning.",
+    "keywords": [
+      "AE-PSL",
+      "parallel split learning",
+      "PSL",
+      "autoencoder",
+      "activation compression",
+      "gradient compression",
+      "foundation models",
+      "distributed fine-tuning",
+      "edge devices"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2607.17913",
+      "https://github.com/Nousphera/AE_PSL#readme"
+    ]
   },
   {
     "year": 2025,
@@ -25,7 +42,22 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2502.06376"
-    }
+    },
+    "summary": "MaTU combines task vectors into a shared representation for federated clients with different or multiple tasks. Lightweight task-specific modulators support transfer between related tasks while separating dissimilar ones, without storing a separate client model at the server.",
+    "keywords": [
+      "MaTU",
+      "many-task federated learning",
+      "MaT-FL",
+      "task vectors",
+      "task heterogeneity",
+      "model merging",
+      "task similarity",
+      "knowledge transfer",
+      "federated fine-tuning"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2502.06376"
+    ]
   },
   {
     "year": 2025,
@@ -38,8 +70,25 @@
       "foundation"
     ],
     "links": {
-      "Paper": "https://arxiv.org/abs/2502.06355"
-    }
+      "Paper": "https://arxiv.org/abs/2502.06355",
+      "Code": "https://github.com/Nousphera/MPSL"
+    },
+    "summary": "MPSL fine-tunes multimodal transformers through parallel split learning, using lightweight client tokenizers and a shared modality-agnostic encoder. It reduces client computation while avoiding label sharing, synchronized client execution and separate server models for each client.",
+    "keywords": [
+      "MPSL",
+      "parallel split learning",
+      "PSL",
+      "multimodal transformers",
+      "edge AI",
+      "foundation models",
+      "fine-tuning",
+      "audio-visual understanding",
+      "image-text retrieval"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2502.06355",
+      "https://github.com/Nousphera/MPSL#readme"
+    ]
   },
   {
     "year": 2025,
@@ -53,8 +102,25 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2508.07873",
-      "Published version": "https://doi.org/10.1145/3746252.3761091"
-    }
+      "Published version": "https://doi.org/10.1145/3746252.3761091",
+      "Code": "https://github.com/SamaneMohammadi/EFU"
+    },
+    "summary": "EFU uses functional encryption to enforce client-initiated federated unlearning while concealing unlearning requests from the aggregation server. Auxiliary losses aim to hide behavioral and parameter changes while removing the influence of forgotten data.",
+    "keywords": [
+      "EFU",
+      "federated unlearning",
+      "FU",
+      "machine unlearning",
+      "functional encryption",
+      "unlearning privacy",
+      "encrypted aggregation",
+      "adversarial examples",
+      "parameter importance"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2508.07873",
+      "https://github.com/SamaneMohammadi/EFU#readme"
+    ]
   },
   {
     "year": 2025,
@@ -69,8 +135,25 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2406.09152",
-      "Published version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100"
-    }
+      "Published version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100",
+      "Code": "https://github.com/SamaneMohammadi/EncCluster"
+    },
+    "summary": "EncCluster combines model weight clustering, decentralized functional encryption and probabilistic filters for secure federated aggregation. The design reduces the amount of data requiring expensive encryption and limits communication overhead on resource-constrained clients.",
+    "keywords": [
+      "EncCluster",
+      "functional encryption",
+      "secure aggregation",
+      "weight clustering",
+      "model compression",
+      "probabilistic filters",
+      "Binary Fuse filters",
+      "inference attacks",
+      "federated learning"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2406.09152",
+      "https://github.com/SamaneMohammadi/EncCluster#readme"
+    ]
   },
   {
     "year": 2024,
@@ -93,6 +176,22 @@
         "venue": "FM-Wild @ ICML 2024 · Workshop",
         "url": "https://openreview.net/forum?id=VDgx8JLtid"
       }
+    ],
+    "summary": "DeltaMask adapts vision foundation models in federated learning by learning stochastic masks that select effective subnetworks. It compresses sparse mask updates with probabilistic filters to reduce communication below one bit per model parameter.",
+    "keywords": [
+      "DeltaMask",
+      "vision foundation models",
+      "federated fine-tuning",
+      "stochastic masking",
+      "probabilistic masking",
+      "sparse subnetworks",
+      "probabilistic filters",
+      "communication efficiency",
+      "bits per parameter"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2311.17299",
+      "https://research.tue.nl/files/349909071/2024337517.pdf"
     ]
   },
   {
@@ -107,7 +206,8 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1145/3626242",
-      "Project": "https://federatedml.github.io/FedLN/"
+      "Project": "https://federatedml.github.io/FedLN/",
+      "Code": "https://github.com/FederatedML/FedLN"
     },
     "related": [
       {
@@ -115,6 +215,23 @@
         "venue": "INTERPOLATE @ NeurIPS 2022 · Workshop",
         "url": "https://openreview.net/pdf?id=gNHMC4I0Pva"
       }
+    ],
+    "summary": "FedLN addresses noisy labels during federated model initialization, local training and server aggregation. It estimates each client's noise level in a single federated round and uses this estimate to correct labels or reduce the influence of unreliable samples.",
+    "keywords": [
+      "FedLN",
+      "noisy labels",
+      "label noise",
+      "noise estimation",
+      "label correction",
+      "robust learning",
+      "federated learning",
+      "audio classification",
+      "image classification"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2208.09378",
+      "https://github.com/FederatedML/FedLN#readme",
+      "https://doi.org/10.1145/3626242"
     ]
   },
   {
@@ -128,8 +245,25 @@
       "efficient"
     ],
     "links": {
-      "Paper": "https://arxiv.org/abs/2401.14211"
-    }
+      "Paper": "https://arxiv.org/abs/2401.14211",
+      "Code": "https://github.com/FederatedML/FedCompress"
+    },
+    "summary": "FedCompress combines adaptive weight clustering with knowledge distillation on the server to reduce federated communication. Its compression strategy targets communication cost and inference efficiency while retaining model generalization.",
+    "keywords": [
+      "FedCompress",
+      "adaptive weight clustering",
+      "dynamic clustering",
+      "knowledge distillation",
+      "server-side distillation",
+      "model compression",
+      "communication efficiency",
+      "federated learning",
+      "inference efficiency"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2401.14211",
+      "https://github.com/FederatedML/FedCompress#readme"
+    ]
   },
   {
     "year": 2024,
@@ -143,8 +277,26 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2311.09270",
-      "Published version": "https://ieeexplore.ieee.org/document/10646450/"
-    }
+      "Published version": "https://ieeexplore.ieee.org/document/10646450/",
+      "Code": "https://github.com/vtsouval/FedCode"
+    },
+    "summary": "FedCode exchanges codebooks of model-weight cluster centers instead of full weight updates in most federated rounds. Periodic weight transfers recalibrate the client and server models, reducing communication in both directions.",
+    "keywords": [
+      "FedCode",
+      "codebooks",
+      "codebook transfer",
+      "weight clustering",
+      "cluster centers",
+      "model compression",
+      "bidirectional communication",
+      "communication efficiency",
+      "non-IID data",
+      "federated learning"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2311.09270",
+      "https://github.com/vtsouval/FedCode#readme"
+    ]
   },
   {
     "year": 2024,
@@ -158,7 +310,22 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1007/978-981-96-4836-8_13"
-    }
+    },
+    "summary": "This study evaluates invisible backdoor attacks in federated learning under different training settings and defenses. It examines how limited local training and model aggregation affect attack success, and investigates attention-based trigger placement.",
+    "keywords": [
+      "FiBA",
+      "invisible backdoor attacks",
+      "backdoor triggers",
+      "federated learning",
+      "model poisoning",
+      "attack success rate",
+      "ASR",
+      "model attention",
+      "robustness"
+    ],
+    "sources": [
+      "https://research.tue.nl/en/publications/on-the-effectiveness-of-invisible-backdoor-attacks-in-federated-l/"
+    ]
   },
   {
     "year": 2023,
@@ -172,7 +339,22 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2305.03058"
-    }
+    },
+    "summary": "PLiX is a multilingual keyword-spotting approach that recognizes previously unseen spoken words from a few support examples. Models trained on short speech clips from 20 languages are evaluated on new keywords and languages without task-specific retraining.",
+    "keywords": [
+      "PLiX",
+      "keyword spotting",
+      "KWS",
+      "few-shot learning",
+      "one-shot learning",
+      "multilingual speech",
+      "spoken word recognition",
+      "low-resource languages",
+      "audio classification"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2305.03058"
+    ]
   },
   {
     "year": 2023,
@@ -184,8 +366,26 @@
       "supervision"
     ],
     "links": {
-      "Paper": "https://ieeexplore.ieee.org/document/10150265/"
-    }
+      "Paper": "https://ieeexplore.ieee.org/document/10150265/",
+      "Code": "https://github.com/vtsouval/DA_MLDG"
+    },
+    "summary": "This study examines domain-shift-aware meta-learning for speech emotion recognition across domains. It identifies limitations of log-mel spectrogram features for domain generalization and explores alternative representations for improving transfer.",
+    "keywords": [
+      "DA-MLDG",
+      "meta-learning",
+      "MLDG",
+      "domain generalization",
+      "domain shift",
+      "speech emotion recognition",
+      "SER",
+      "log-mel spectrograms",
+      "feature representations",
+      "negative results"
+    ],
+    "sources": [
+      "https://research.tue.nl/en/publications/on-efficacy-of-meta-learning-for-domain-generalization-in-speech-/",
+      "https://github.com/vtsouval/DA_MLDG#readme"
+    ]
   },
   {
     "year": 2022,
@@ -207,6 +407,23 @@
         "venue": "IEEE ICASSP 2022 · Conference",
         "url": "https://ieeexplore.ieee.org/document/9746356"
       }
+    ],
+    "summary": "FedSTAR combines federated learning with self-training to use unlabeled audio stored on client devices. It also studies self-supervised pre-training as an initialization that reduces the number of federated training rounds needed for convergence.",
+    "keywords": [
+      "FedSTAR",
+      "federated learning",
+      "semi-supervised learning",
+      "self-training",
+      "pseudo-labeling",
+      "audio recognition",
+      "audio classification",
+      "unlabeled data",
+      "self-supervised pre-training"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2107.06877",
+      "https://github.com/FederatedML/FedSTAR#readme",
+      "https://doi.org/10.1145/3520128"
     ]
   },
   {
@@ -223,6 +440,21 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2202.02611",
       "Published version": "https://ieeexplore.ieee.org/document/9767445"
-    }
+    },
+    "summary": "This work applies federated self-training to speech emotion recognition using both labeled and unlabeled on-device audio. Experiments on IEMOCAP examine learning with scarce labels and strongly non-IID client data.",
+    "keywords": [
+      "speech emotion recognition",
+      "SER",
+      "federated learning",
+      "semi-supervised learning",
+      "self-training",
+      "unlabeled audio",
+      "IEMOCAP",
+      "non-IID data",
+      "data efficiency"
+    ],
+    "sources": [
+      "https://arxiv.org/abs/2202.02611"
+    ]
   }
 ]
