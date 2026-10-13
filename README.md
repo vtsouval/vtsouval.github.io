@@ -10,7 +10,8 @@ Run `python3 -m http.server 8000 --bind 127.0.0.1` in this directory and open ht
 
 - `index.html`: introduction, research themes, publications, research code and academic profile.
 - `style.css`: shared visual design and responsive layouts.
-- `cv.html`: academic CV in HTML; can be printed from the browser.
+- `cv.html` and `cv.css`: responsive academic CV, with a section index, aligned dates and print styling.
+- `js/cv.js`: optional current-section highlighting for the CV index; navigation remains functional without JavaScript.
 - `data/publications.json`: publication records, topics, searchable keywords, summaries, verified resources and related versions.
 - `scripts/build_publications.py`: run after editing publication data to update the committed static HTML.
 - `js/publication-search.js`: normalization, word-prefix matching, combined filters and URL state.
@@ -29,13 +30,13 @@ python3 tests/publications.test.py
 node --test tests/publication-search.test.cjs
 ```
 
-The Python tests exercise generated static markup and search metadata. The Node tests exercise matching and URL/filter behavior. Browser verification notes for the current iteration are in `docs/iteration-2.md`.
+The Python tests exercise generated static markup and search metadata. The Node tests exercise matching and URL/filter behavior. Design and source notes are in `docs/iteration-2.md` and `docs/iteration-3.md`.
 
 The original site remains available in Git at commit `ffd25dc`; legacy assets and the original licence are retained. No remote changes have been pushed.
 
 ## Content review for the next iteration
 
-The biography and CV are a draft based on the local CV and public academic records. Confirm preferred emphasis between LLM reasoning and federated/foundation-model research. Review teaching dates, award wording, invited talks and supervision descriptions. The portrait is the current public TU/e profile photo. The CV also mentions Bringing Functional Encryption in Federated Foundational Models (NeurIPS FL@FM 2024); verify its record before adding it.
+The biography and CV use the local CV, public academic records and the author's confirmations. Teaching and supervision descriptions remain open to editorial review. The portrait is the current public TU/e profile photo. Conference participation, Flower talk attribution and the new reviewer roles were confirmed by the author in the third iteration. The CV also mentions Bringing Functional Encryption in Federated Foundational Models (NeurIPS FL@FM 2024); verify its bibliographic record before adding it to the publication list.
 
 The bibliography has 14 main entries and three related versions from the Scholar audit. It is not claimed to cover every output. The thesis is linked separately. The local CV's private under-review manuscript is excluded. Proceedings publication years may differ from event years: DeltaMask uses the BigData 2024 event label, and UbiSec explicitly notes proceedings publication in 2025.
 
