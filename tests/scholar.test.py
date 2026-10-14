@@ -1,5 +1,7 @@
 """Scholar parsing, freshness and safe fallback without external requests."""
 from datetime import datetime, timezone
+from contextlib import redirect_stderr
+from io import StringIO
 from pathlib import Path
 import sys
 import unittest
@@ -42,7 +44,11 @@ class ScholarTests(unittest.TestCase):
         cached = snapshot()
         def blocked(_):
             raise HTTPError(PROFILE_URL, 429, 'Too Many Requests', {}, None)
-        self.assertEqual(refresh_metrics(cached, blocked, now=NOW), cached)
+        warning = StringIO()
+        with redirect_stderr(warning):
+            self.assertEqual(refresh_metrics(cached, blocked, now=NOW), cached)
+        self.assertIn('retaining verified metrics', warning.getvalue())
+        self.assertIn(cached['updated_at'], warning.getvalue())
 
     def test_uses_newer_published_cache_when_scholar_is_blocked(self):
         import json
@@ -51,7 +57,8 @@ class ScholarTests(unittest.TestCase):
             if url.endswith('.json'):
                 return json.dumps(published)
             raise OSError('temporarily unavailable')
-        result = refresh_metrics(snapshot(), fetch, now=NOW, previous_url='https://vtsouval.github.io/data/scholar-metrics.json')
+        with redirect_stderr(StringIO()):
+            result = refresh_metrics(snapshot(), fetch, now=NOW, previous_url='https://vtsouval.github.io/data/scholar-metrics.json')
         self.assertEqual(result, published)
 
     def test_foreign_or_malformed_snapshots_are_rejected(self):
