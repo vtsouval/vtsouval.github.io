@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "areas": [
+    {
+      "id": "foundation",
+      "title": "Efficient Multimodal FMs on Edge",
+      "description": "Adapting vision, language and multimodal FMs under edge compute, memory and communication constraints.",
+      "icon": "area-foundation",
+      "papers": [
+        "ae-psl",
+        "matu",
+        "mpsl",
+        "deltamask",
+        "enccluster"
+      ]
+    },
+    {
+      "id": "decentralized",
+      "title": "Reliable & Decentralized ML",
+      "description": "Learning with limited labels, noisy or shifted data, and efficient FL/SL across heterogeneous devices.",
+      "icon": "area-federated",
+      "papers": [
+        "ae-psl",
+        "matu",
+        "mpsl",
+        "enccluster",
+        "deltamask",
+        "fedln",
+        "fedcompress",
+        "fedcode",
+        "plix",
+        "da-mldg",
+        "fedstar",
+        "fedser"
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy & Security on Edge",
+      "description": "Efficient secure aggregation and unlearning, with analysis of attacks and privacy–fairness trade-offs.",
+      "icon": "area-privacy",
+      "papers": [
+        "efu",
+        "enccluster",
+        "fiba",
+        "fedser"
+      ]
+    }
+  ],
+  "mapping_notes": {
+    "enccluster": "Foundation-model membership includes the related NeurIPS 2024 Federated Foundation Models workshop paper; the main project page distinguishes that version from the general FL study.",
+    "fedser": "Privacy refers to retaining raw speech on clients. The paper does not establish differential privacy or protection against update leakage.",
+    "ae-psl": "Parallel split learning belongs to decentralized learning and foundation-model adaptation; it is not federated averaging.",
+    "mpsl": "Multimodal parallel split learning belongs to decentralized learning and foundation-model adaptation; it is not federated averaging.",
+    "decentralized": "This area covers reliable learning and decentralized learning. PLiX and DA-MLDG concern few-shot or cross-domain learning, not distributed training. FL and parallel SL are distinct paradigms grouped here by their collaborative learning focus.",
+    "foundation": "Includes vision-only and multimodal adaptation. The description also reflects current language-model efficiency work; unpublished manuscripts do not enter public paper or project counts."
+  }
+}

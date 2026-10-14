@@ -1,0 +1,43 @@
+{
+  "purpose": "Legacy approximate illustrations, no longer rendered. The website uses official source artwork recorded in ../marks/manifest.json.",
+  "assets": [
+    {
+      "id": "neurips",
+      "file": "neurips.svg",
+      "kind": "custom-ui-symbol",
+      "official_logo": false,
+      "description": "Neural connections and a loose cranial arc, inspired by the original neural motif.",
+      "theme": "Inline currentColor; color and surface supplied by academic.css.",
+      "source_geometry": "Original SVG paths created for this website; not copied from the conference assets."
+    },
+    {
+      "id": "icml",
+      "file": "icml.svg",
+      "kind": "custom-ui-symbol",
+      "official_logo": false,
+      "description": "Pixel inputs and a simplified head profile, inspired by the original learning motif.",
+      "theme": "Inline currentColor; color and surface supplied by academic.css.",
+      "source_geometry": "Original SVG paths created for this website; not copied from the conference assets."
+    },
+    {
+      "id": "ijcai",
+      "file": "ijcai.svg",
+      "kind": "custom-ui-symbol",
+      "official_logo": false,
+      "description": "A small triangulated dome, inspired by the Montreal conference geometry.",
+      "theme": "Inline currentColor; color and surface supplied by academic.css.",
+      "source_geometry": "Original SVG paths created for this website; not copied from the conference assets."
+    },
+    {
+      "id": "icassp",
+      "file": "icassp.svg",
+      "kind": "custom-ui-symbol",
+      "official_logo": false,
+      "description": "A shallow arch and signal bars, inspired by the signal-processing and bridge motifs.",
+      "theme": "Inline currentColor; color and surface supplied by academic.css.",
+      "source_geometry": "Original SVG paths created for this website; not copied from the conference assets."
+    }
+  ],
+  "deprecated": true,
+  "replaced_by": "../marks/manifest.json"
+}

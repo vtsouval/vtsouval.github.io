@@ -1,0 +1,110 @@
+{
+  "ecml-pkdd": {
+    "file": "ecml-pkdd-2026.png",
+    "match": [
+      "ECML-PKDD"
+    ]
+  },
+  "acl-arr": {
+    "file": "acl-arr.png"
+  },
+  "ndss": {
+    "file": "marks/ndss.svg"
+  },
+  "percom-2022": {
+    "file": "percom.png",
+    "match": [
+      "PerCom 2022"
+    ]
+  },
+  "percom-2023": {
+    "file": "percom-2023.png",
+    "match": [
+      "PerCom 2023"
+    ]
+  },
+  "icassp-2027": {
+    "file": "icassp-2027.png"
+  },
+  "icassp-2024": {
+    "file": "icassp-2024.png",
+    "match": [
+      "ICASSP 2024"
+    ]
+  },
+  "neurips": {
+    "file": "marks/neurips.svg",
+    "match": [
+      "NeurIPS"
+    ]
+  },
+  "icml": {
+    "file": "marks/icml.svg",
+    "match": [
+      "ICML"
+    ]
+  },
+  "ijcai": {
+    "file": "ijcai-2025-color.png",
+    "match": [
+      "IJCAI"
+    ]
+  },
+  "cikm": {
+    "file": "cikm-2025.png",
+    "match": [
+      "CIKM"
+    ]
+  },
+  "acm": {
+    "file": "acm.svg",
+    "match": [
+      "ACM TIST",
+      "ACM TECS"
+    ],
+    "identity": "Publisher"
+  },
+  "bigdata": {
+    "file": "marks/ieee-bigdata-light.png",
+    "file_dark": "marks/ieee-bigdata-dark.png",
+    "match": [
+      "IEEE BigData",
+      "IEEE Big Data"
+    ]
+  },
+  "ieee": {
+    "file": "ieee.svg",
+    "match": [
+      "IEEE EDGE"
+    ],
+    "identity": "Publisher"
+  },
+  "elsevier": {
+    "file": "elsevier.svg",
+    "match": [
+      "Pervasive and Mobile Computing"
+    ],
+    "identity": "Publisher"
+  },
+  "arxiv": {
+    "file": "arxiv.svg",
+    "match": [
+      "arXiv:"
+    ]
+  },
+  "icassp-2022": {
+    "file": "marks/icassp-2022.svg",
+    "match": [
+      "ICASSP 2022"
+    ]
+  },
+  "springer": {
+    "name": "Springer",
+    "file": "marks/springer-light.png",
+    "file_dark": "marks/springer-dark.png",
+    "match": [
+      "UbiSec"
+    ],
+    "identity": "Publisher"
+  }
+}

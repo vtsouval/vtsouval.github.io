@@ -1,0 +1,55 @@
+/* Two distinct links per tile: papers here, matching projects on Nousphera. */
+.research { position: relative; }
+.section-anchor { position: absolute; top: 0; }
+.research-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.area-card { --area-color: #2269a6; --area-tint: #eff6fc; position: relative; display: flex; flex-direction: column; isolation: isolate; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); box-shadow: 0 1px 2px rgb(0 0 0 / 2%); transition: border-color .2s, box-shadow .2s, transform .2s; }
+.area-card[data-area='decentralized'] { --area-color: #177568; --area-tint: #edf8f5; }
+.area-card[data-area='privacy'] { --area-color: #865e23; --area-tint: #fbf6ec; }
+:root[data-theme='dark'] .area-card { --area-color: #83bfee; --area-tint: #162837; }
+:root[data-theme='dark'] .area-card[data-area='decentralized'] { --area-color: #7dcfc0; --area-tint: #142e2a; }
+:root[data-theme='dark'] .area-card[data-area='privacy'] { --area-color: #e5bd7c; --area-tint: #30291d; }
+.area-primary { display: grid; grid-template-columns: 30px minmax(0, 1fr); grid-template-rows: auto 1fr auto; column-gap: 9px; row-gap: 12px; flex: 1; padding: 18px 17px 0; color: var(--ink); }
+.area-primary::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+.area-primary:hover { text-decoration: none; }
+.area-primary h3 { align-self: center; margin: 0; font-size: 1rem; line-height: 1.45; font-weight: 600; letter-spacing: -.02em; }
+.area-primary p { grid-column: 1 / -1; margin: 0 0 2px; color: var(--secondary); font-size: 0.9375rem; line-height: 1.7; letter-spacing: 0; text-wrap: pretty; }
+.area-symbol { display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; color: var(--area-color); background: var(--area-tint); border-radius: 8px; }
+.area-symbol .icon { width: 20px; height: 20px; flex-basis: 20px; stroke-width: 1.5; transition: transform .2s; }
+.area-papers { grid-column: 1 / -1; display: flex; align-items: center; gap: 8px; min-height: 47px; border-top: 1px solid var(--line); color: var(--secondary); font-size: 0.8125rem; font-weight: 500; }
+.area-papers .icon, .area-projects>.icon { width: 14px; height: 14px; flex-basis: 14px; }
+.area-papers .icon, .area-projects>.icon:last-child { transition: transform .2s; }
+.area-projects { position: absolute; z-index: 1; bottom: 1px; right: 9px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 7px 8px; border-radius: 6px; color: var(--secondary); font-size: 0.8125rem; font-weight: 500; }
+.area-projects:hover { color: var(--area-color); background: var(--area-tint); text-decoration: none; }
+.area-primary:hover .area-papers { color: var(--area-color); }
+.area-card:focus-within { border-color: var(--area-color); }
+.area-primary:focus-visible { outline: none; }
+.area-primary:focus-visible::after { outline: 2px solid var(--focus); outline-offset: 3px; }
+@media (hover: hover) {
+  .area-card:hover { transform: translateY(-2px); border-color: var(--area-color); box-shadow: 0 5px 16px rgb(0 0 0 / 5%); }
+  .area-card:hover .area-symbol .icon { transform: scale(1.06); }
+  .area-primary:hover .area-papers .icon, .area-projects:hover>.icon:last-child { transform: translateX(2px); }
+}
+@media (max-width: 1050px) {
+  .research-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .area-primary { padding: 17px 18px 0; }
+  .area-primary h3 { font-size: 1rem; }
+  .area-primary p { font-size: 0.9375rem; }
+  .area-projects { right: 10px; }
+}
+@media (max-width: 420px) {
+  .area-primary { padding: 16px 15px 0; column-gap: 8px; row-gap: 10px; }
+  .area-primary h3 { font-size: 0.9375rem; }
+  .area-primary p { font-size: 0.9375rem; }
+  .area-projects { right: 7px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .area-card, .area-symbol .icon, .area-papers .icon, .area-projects>.icon:last-child { transition: none; }
+  .area-card:hover, .area-card:hover .area-symbol .icon, .area-primary:hover .area-papers .icon, .area-projects:hover>.icon:last-child { transform: none; }
+}
+@media print { .area-card { break-inside: avoid; } .area-projects { display: none; } }
+/* Separate the two actions if enlarged text leaves too little inline space. */
+.area-card { container-type: inline-size; }
+@container (max-width: 15rem) {
+  .area-primary { padding-bottom: 3.5rem; }
+  .area-projects { left: .6rem; right: auto; bottom: .25rem; }
+}

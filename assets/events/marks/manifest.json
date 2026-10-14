@@ -1,0 +1,233 @@
+{
+  "purpose": "Faithful local event and organizer identities; original source artwork, not invented replacement logos.",
+  "theme": "Color artwork retains original colors on a neutral light surface. Monochrome Flower, NDSS, ECML-PKDD, arXiv and Elsevier marks receive light/dark CSS treatment; source geometry stays unchanged. IEEE Big Data uses transparent light/dark PNGs generated from the original emblem.",
+  "assets": [
+    {
+      "id": "neurips",
+      "file": "marks/neurips.svg",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Original vector paths extracted without redraw."
+    },
+    {
+      "id": "icml",
+      "file": "marks/icml.svg",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Original vector paths extracted without redraw."
+    },
+    {
+      "id": "icassp-2022",
+      "file": "marks/icassp-2022.svg",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Original vector paths extracted without redraw."
+    },
+    {
+      "id": "icassp-2024",
+      "file": "icassp-2024.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Original raster retained; not represented as an SVG."
+    },
+    {
+      "id": "ijcai",
+      "file": "ijcai-2025-color.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Original raster retained; not represented as an SVG."
+    },
+    {
+      "id": "flower",
+      "file": "marks/flower.svg",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Original vector paths extracted without redraw."
+    },
+    {
+      "id": "neat",
+      "file": "neat-2026.avif",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Original raster retained; not represented as an SVG."
+    },
+    {
+      "id": "asci",
+      "file": "asci.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Original raster retained; not represented as an SVG."
+    },
+    {
+      "id": "deeplearn",
+      "file": "marks/deeplearn.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Lossless whitespace crop of the original 400px official emblem; no redraw or resampling.",
+      "source_crop": [
+        86,
+        63,
+        312,
+        344
+      ]
+    },
+    {
+      "id": "irdta",
+      "file": "irdta-2024.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Original raster retained; not represented as an SVG."
+    },
+    {
+      "id": "lorentz",
+      "file": "lorentz-center.jpg",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Original raster retained; not represented as an SVG."
+    },
+    {
+      "id": "nvidia",
+      "file": "marks/nvidia.svg",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Original vector paths extracted without redraw."
+    },
+    {
+      "id": "ecml-pkdd",
+      "file": "ecml-pkdd-2026.png",
+      "match": [
+        "ECML-PKDD"
+      ],
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "acl-arr",
+      "file": "acl-arr.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "ndss",
+      "file": "marks/ndss.svg",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Original lock and network emblem extracted without redrawing geometry; monochrome theme treatment."
+    },
+    {
+      "id": "percom-2022",
+      "file": "percom.png",
+      "match": [
+        "PerCom 2022"
+      ],
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "percom-2023",
+      "file": "percom-2023.png",
+      "match": [
+        "PerCom 2023"
+      ],
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "icassp-2027",
+      "file": "icassp-2027.png",
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "cikm",
+      "file": "cikm-2025.png",
+      "match": [
+        "CIKM"
+      ],
+      "format": "raster",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "acm",
+      "file": "acm.svg",
+      "match": [
+        "ACM TIST",
+        "ACM TECS"
+      ],
+      "identity": "Publisher",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Publisher"
+    },
+    {
+      "id": "ieee",
+      "file": "ieee.svg",
+      "match": [
+        "IEEE EDGE"
+      ],
+      "identity": "Publisher",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Publisher"
+    },
+    {
+      "id": "elsevier",
+      "file": "elsevier.svg",
+      "match": [
+        "Pervasive and Mobile Computing"
+      ],
+      "identity": "Publisher",
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Publisher"
+    },
+    {
+      "id": "arxiv",
+      "file": "arxiv.svg",
+      "match": [
+        "arXiv:"
+      ],
+      "format": "vector",
+      "source": "../sources.json",
+      "note": "Official source artwork; original colors and geometry retained."
+    },
+    {
+      "id": "bigdata",
+      "file": "marks/ieee-bigdata-light.png",
+      "file_dark": "marks/ieee-bigdata-dark.png",
+      "match": [
+        "IEEE BigData",
+        "IEEE Big Data"
+      ],
+      "format": "raster",
+      "source": "../sources.json",
+      "source_crop": {
+        "left": 9,
+        "top": 9,
+        "width": 165,
+        "height": 172
+      },
+      "note": "Original network emblem, cropped without redrawing or resampling; transparent light/dark PNGs. Rebuild with scripts/build_raster_marks.cjs."
+    },
+    {
+      "id": "springer",
+      "name": "Springer",
+      "file": "marks/springer-light.png",
+      "file_dark": "marks/springer-dark.png",
+      "match": [
+        "UbiSec"
+      ],
+      "identity": "Publisher",
+      "format": "raster",
+      "vector": "marks/springer.svg",
+      "source": "../sources.json",
+      "note": "Original source paths 1 and 2, viewBox 0 0 90 110; high-resolution light/dark PNGs generated by build_raster_marks.cjs."
+    }
+  ]
+}

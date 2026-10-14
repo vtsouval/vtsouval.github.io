@@ -1,0 +1,332 @@
+{
+  "checked": "2026-10-14",
+  "scope": "All 14 listed publications and their 4 public related versions",
+  "notes": [
+    "UbiSec venue is Changsha, not the publisher location Singapore. Conference held December 2024; revised proceedings published May 2025.",
+    "PerCom 2022 changed to a fully virtual event; Pisa is retained only as the host city.",
+    "Springer is a publisher mark, not an invented UbiSec venue logo. IEEE/ACM/Elsevier marks likewise identify publishers.",
+    "Journals and preprints do not receive a conference location.",
+    "Known conference and workshop dates are kept distinct using date_scope.",
+    "The author confirmed virtual attendance at UbiSec 2024 and ICASSP 2022. Other new paper milestones do not assert attendance or presentation.",
+    "Timeline date audit: all 13 conference/workshop paper and presentation milestones have day-level dates; workshop dates are used for workshop entries. FM-Wild uses 26 July 2024 from the organizer schedule; the OpenReview group header lists 27 July and was not used."
+  ],
+  "entries": [
+    {
+      "title": "AutoEncoder-Compressed Parallel Split Learning for Pre-Trained Model Fine-Tuning",
+      "venue": "WAFL @ ECML-PKDD 2026",
+      "related_version": false,
+      "brand": "ecml-pkdd",
+      "identity": "Venue",
+      "event": {
+        "location": "Naples, Italy",
+        "url": "https://wafl2026.di.unito.it/",
+        "sources": [
+          "https://wafl2026.di.unito.it/",
+          "https://ecmlpkdd.org/2026/"
+        ],
+        "date_label": "11 September 2026",
+        "start_date": "2026-09-11",
+        "end_date": "2026-09-11",
+        "date_scope": "workshop"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "Many-Task Federated Fine-Tuning via Unified Task Vectors",
+      "venue": "FedGenAI @ IJCAI 2025",
+      "related_version": false,
+      "brand": "ijcai",
+      "identity": "Venue",
+      "event": {
+        "location": "Montreal, Canada",
+        "url": "https://federated-learning.org/FedGenAI-ijcai-2025/",
+        "sources": [
+          "https://federated-learning.org/FedGenAI-ijcai-2025/"
+        ],
+        "date_label": "18 August 2025",
+        "start_date": "2025-08-18",
+        "end_date": "2025-08-18",
+        "date_scope": "workshop"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "Fine-Tuning Multimodal Transformers on Edge: A Parallel Split Learning Approach",
+      "venue": "FedGenAI @ IJCAI 2025",
+      "related_version": false,
+      "brand": "ijcai",
+      "identity": "Venue",
+      "event": {
+        "location": "Montreal, Canada",
+        "url": "https://federated-learning.org/FedGenAI-ijcai-2025/",
+        "sources": [
+          "https://federated-learning.org/FedGenAI-ijcai-2025/"
+        ],
+        "date_label": "18 August 2025",
+        "start_date": "2025-08-18",
+        "end_date": "2025-08-18",
+        "date_scope": "workshop"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "EFU: Enforcing Federated Unlearning via Functional Encryption",
+      "venue": "ACM CIKM 2025",
+      "related_version": false,
+      "brand": "cikm",
+      "identity": "Venue",
+      "event": {
+        "location": "Seoul, South Korea",
+        "url": "https://cikm2025.org/attend/venue",
+        "sources": [
+          "https://cikm2025.org/calls/full-research-papers",
+          "https://cikm2025.org/attend/venue"
+        ],
+        "date_label": "10–14 November 2025",
+        "start_date": "2025-11-10",
+        "end_date": "2025-11-14",
+        "date_scope": "conference"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "EncCluster: Scalable Functional Encryption in Federated Learning through Weight Clustering and Probabilistic Filters",
+      "venue": "Pervasive and Mobile Computing",
+      "related_version": false,
+      "brand": "elsevier",
+      "identity": "Publisher",
+      "event": "Not applicable: journal article or preprint",
+      "attendance_note": null
+    },
+    {
+      "title": "EncCluster: Bringing Functional Encryption in Federated Foundational Models",
+      "venue": "FL@FM @ NeurIPS 2024 · Workshop",
+      "related_version": true,
+      "brand": "neurips",
+      "identity": "Venue",
+      "event": {
+        "location": "Vancouver, Canada",
+        "url": "https://federated-learning.org/fl@fm-neurips-2024/",
+        "sources": [
+          "https://federated-learning.org/fl@fm-neurips-2024/"
+        ],
+        "date_label": "15 December 2024",
+        "start_date": "2024-12-15",
+        "end_date": "2024-12-15",
+        "date_scope": "workshop"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "DeltaMask: Minimizing Communication in Federated Fine-Tuning of Vision Foundation Models",
+      "venue": "IEEE Big Data 2024",
+      "related_version": false,
+      "brand": "bigdata",
+      "identity": "Venue",
+      "event": {
+        "location": "Washington, DC, USA",
+        "url": "https://www3.cs.stonybrook.edu/~ieeebigdata2024/",
+        "sources": [
+          "https://www3.cs.stonybrook.edu/~ieeebigdata2024/",
+          "https://research.tue.nl/en/publications/deltamask-minimizing-communication-in-federated-fine-tuning-of-vi/"
+        ],
+        "date_label": "15–18 December 2024",
+        "start_date": "2024-12-15",
+        "end_date": "2024-12-18",
+        "date_scope": "conference"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "Federated Fine-Tuning of Vision Foundation Models via Probabilistic Masking",
+      "venue": "FM-Wild @ ICML 2024 · Workshop",
+      "related_version": true,
+      "brand": "icml",
+      "identity": "Venue",
+      "event": {
+        "location": "Vienna, Austria",
+        "url": "https://fm-wild-community.github.io/index_2024.html",
+        "sources": [
+          "https://icml.cc/Conferences/2024",
+          "https://fm-wild-community.github.io/index_2024.html"
+        ],
+        "date_scope": "workshop",
+        "start_date": "2024-07-26",
+        "end_date": "2024-07-26",
+        "date_label": "26 July 2024"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "Labeling Chaos to Learning Harmony: Federated Learning with Noisy Labels",
+      "venue": "ACM TIST",
+      "related_version": false,
+      "brand": "acm",
+      "identity": "Publisher",
+      "event": "Not applicable: journal article or preprint",
+      "attendance_note": null
+    },
+    {
+      "title": "Federated Learning with Noisy Labels: Achieving Generalization in the Face of Label Noise",
+      "venue": "INTERPOLATE @ NeurIPS 2022 · Workshop",
+      "related_version": true,
+      "brand": "neurips",
+      "identity": "Venue",
+      "event": {
+        "location": "New Orleans, USA",
+        "url": "https://sites.google.com/view/interpolation-workshop",
+        "sources": [
+          "https://neurips.cc/Conferences/2022",
+          "https://sites.google.com/view/interpolation-workshop"
+        ],
+        "date_scope": "workshop",
+        "start_date": "2022-12-02",
+        "end_date": "2022-12-02",
+        "date_label": "2 December 2022"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "Communication-Efficient Federated Learning through Adaptive Weight Clustering and Server-Side Distillation",
+      "venue": "IEEE ICASSP 2024",
+      "related_version": false,
+      "brand": "icassp-2024",
+      "identity": "Venue",
+      "event": {
+        "location": "Seoul, South Korea",
+        "url": "https://signalprocessingsociety.org/events/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing",
+        "sources": [
+          "https://signalprocessingsociety.org/events/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing"
+        ],
+        "date_label": "14–19 April 2024",
+        "start_date": "2024-04-14",
+        "end_date": "2024-04-19",
+        "date_scope": "conference"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "FedCode: Communication-Efficient Federated Learning via Transferring Codebooks",
+      "venue": "IEEE EDGE 2024",
+      "related_version": false,
+      "brand": "ieee",
+      "identity": "Publisher",
+      "event": {
+        "location": "Shenzhen, China",
+        "url": "https://research.tue.nl/nl/publications/fedcode-communication-efficient-federated-learning-via-transferri/",
+        "sources": [
+          "https://research.tue.nl/nl/publications/fedcode-communication-efficient-federated-learning-via-transferri/"
+        ],
+        "date_label": "7–13 July 2024",
+        "start_date": "2024-07-07",
+        "end_date": "2024-07-13",
+        "date_scope": "conference",
+        "attendance": "virtual",
+        "attendance_source": "Confirmed by the author in this conversation on 2026-10-14"
+      },
+      "attendance_note": "Virtual attendance confirmed by the author on 2026-10-14"
+    },
+    {
+      "title": "On the Effectiveness of Invisible Backdoor Attacks in Federated Learning",
+      "venue": "UbiSec 2024 · Proceedings published 2025",
+      "related_version": false,
+      "brand": "springer",
+      "identity": "Publisher",
+      "event": {
+        "location": "Changsha, China",
+        "url": "https://research.tue.nl/en/publications/on-the-effectiveness-of-invisible-backdoor-attacks-in-federated-l/",
+        "sources": [
+          "https://research.tue.nl/en/publications/on-the-effectiveness-of-invisible-backdoor-attacks-in-federated-l/"
+        ],
+        "date_label": "29–31 December 2024",
+        "start_date": "2024-12-29",
+        "end_date": "2024-12-31",
+        "attendance": "virtual",
+        "attendance_source": "Confirmed by the author in this conversation on 2026-10-14",
+        "date_scope": "conference"
+      },
+      "attendance_note": "Confirmed by the author in this conversation on 2026-10-14"
+    },
+    {
+      "title": "Plug-and-Play Multilingual Few-Shot Spoken Words Recognition",
+      "venue": "arXiv:2305.03058",
+      "related_version": false,
+      "brand": "arxiv",
+      "identity": "Venue",
+      "event": "Not applicable: journal article or preprint",
+      "attendance_note": null
+    },
+    {
+      "title": "On the Efficacy of Meta-Learning for Domain Generalization in Speech Emotion Recognition",
+      "venue": "PerFail @ IEEE PerCom 2023",
+      "related_version": false,
+      "brand": "percom-2023",
+      "identity": "Venue",
+      "event": {
+        "location": "Atlanta, USA",
+        "url": "https://perfail-workshop.github.io/2023/",
+        "sources": [
+          "https://perfail-workshop.github.io/2023/",
+          "https://research.tue.nl/en/publications/on-efficacy-of-meta-learning-for-domain-generalization-in-speech-/"
+        ],
+        "date_label": "17 March 2023",
+        "start_date": "2023-03-17",
+        "end_date": "2023-03-17",
+        "date_scope": "workshop"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    },
+    {
+      "title": "Federated Self-Training for Semi-Supervised Audio Recognition",
+      "venue": "ACM TECS",
+      "related_version": false,
+      "brand": "acm",
+      "identity": "Publisher",
+      "event": "Not applicable: journal article or preprint",
+      "attendance_note": null
+    },
+    {
+      "title": "Federated Self-Training for Data-Efficient Audio Recognition",
+      "venue": "IEEE ICASSP 2022 · Conference",
+      "related_version": true,
+      "brand": "icassp-2022",
+      "identity": "Venue",
+      "event": {
+        "location": "Singapore",
+        "url": "https://2022.ieeeicassp.org/",
+        "sources": [
+          "https://2022.ieeeicassp.org/"
+        ],
+        "date_label": "22–27 May 2022",
+        "start_date": "2022-05-22",
+        "end_date": "2022-05-27",
+        "attendance": "virtual",
+        "attendance_source": "Confirmed by the author in this conversation on 2026-10-14",
+        "date_scope": "conference"
+      },
+      "attendance_note": "Confirmed by the author in this conversation on 2026-10-14"
+    },
+    {
+      "title": "Privacy-Preserving Speech Emotion Recognition through Semi-Supervised Federated Learning",
+      "venue": "EmotionAware @ IEEE PerCom 2022",
+      "related_version": false,
+      "brand": "percom-2022",
+      "identity": "Venue",
+      "event": {
+        "location": "Pisa, Italy",
+        "url": "https://percom.org/PerCom2022/full-program/",
+        "sources": [
+          "https://percom.org/PerCom2022/",
+          "https://research.tue.nl/en/publications/privacy-preserving-speech-emotion-recognition-through-semi-superv/",
+          "https://percom.org/PerCom2022/full-program/"
+        ],
+        "date_label": "25 March 2022",
+        "start_date": "2022-03-25",
+        "end_date": "2022-03-25",
+        "format": "virtual",
+        "date_scope": "workshop"
+      },
+      "attendance_note": "No personal attendance inferred from the publication"
+    }
+  ]
+}

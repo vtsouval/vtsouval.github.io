@@ -1,0 +1,252 @@
+{
+  "assets": [
+    {
+      "file": "neurips.svg",
+      "source_url": "https://neurips.cc/media/Press/NeurIPS_logo.svg",
+      "source_page": "https://neurips.cc/public/MediaKit",
+      "sha256": "b582019d2789b6706dde66b046e6ffc8c7a5d029a609bd1783eb392e8ea34fce",
+      "usage": "Identifies the corresponding event or recording in the local website preview. Original geometry and colors retained.",
+      "public_reuse": "unverified"
+    },
+    {
+      "file": "icml.svg",
+      "source_url": "https://icml.cc/media/Press/ICML-logo.svg",
+      "source_page": "https://icml.cc/Conferences/2024/Press",
+      "sha256": "b42f6d492543f794bc1ffd7eacdb1579a8b6ea352b806cc933c0b65576520da3",
+      "usage": "Identifies the corresponding event or recording in the local website preview. Original geometry and colors retained.",
+      "public_reuse": "unverified"
+    },
+    {
+      "file": "ijcai-2025.png",
+      "source_url": "https://2025.ijcai.org/wp-content/uploads/2024/10/IJCAI2025_Montreal_Logo_BN-1.png",
+      "source_page": "https://2025.ijcai.org/",
+      "sha256": "8d4d52aab06631748163c049d11195a9adf85edb3bd8e000e0983797ceda6e1d",
+      "usage": "Identifies the corresponding event or recording in the local website preview. Original geometry and colors retained.",
+      "public_reuse": "unverified"
+    },
+    {
+      "file": "icassp-2022.svg",
+      "source_url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/06/ICASSP2022_logo.zip",
+      "source_page": "https://2022.ieeeicassp.org/resources/",
+      "sha256": "63b5e1d0fb8c4bf8621e4813e3b4a552a6634d18aacc3f44fb3320e8bdbfea62",
+      "usage": "Identifies the corresponding event or recording in the local website preview. Original geometry and colors retained.",
+      "public_reuse": "unverified"
+    },
+    {
+      "file": "icassp-2024.png",
+      "source_url": "https://signalprocessingsociety.org/sites/default/files/uploads/our_story/docs/State_of_the_Society_ICASSP_2024.pdf",
+      "source_page": "https://signalprocessingsociety.org/sites/default/files/uploads/our_story/docs/State_of_the_Society_ICASSP_2024.pdf",
+      "sha256": "4c1e329a16e8a6c4db2fbf3f2127bcd9e68e840a05db78e06374f2d65778c4a0",
+      "usage": "Identifies the corresponding event or recording in the local website preview. Original geometry and colors retained.",
+      "public_reuse": "unverified"
+    },
+    {
+      "file": "flower.svg",
+      "source_url": "https://flower.ai/",
+      "source_page": "https://flower.ai/",
+      "sha256": "ebc0c35409e1fbf4d5e9f7c683c740f8f51df3498168ea7624170b09ae364b0d",
+      "usage": "Identifies the corresponding event or recording in the local website preview. Original geometry and colors retained.",
+      "public_reuse": "unverified"
+    },
+    {
+      "file": "youtube.svg",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg",
+      "source_page": "https://github.com/simple-icons/simple-icons",
+      "license": "CC0-1.0 (icon collection); YouTube trademark retained",
+      "sha256": "5038808acbbc4e6edda16cbeb1cc6dec80e4e4ee4e227e039c41229fa222aa8c"
+    },
+    {
+      "file": "neat-2026.avif",
+      "source_url": "https://www.neat-symposium.org/.wh/ea/uc/i4ce9a3d501029155ff02e42b9f01df55ded470783cf30701c10000a00080/picture1-copy-2.avif",
+      "retrieved": "2026-10-14",
+      "sha256": "47d4118401c5a7bf65110bae13b608c8de28b26a1133c2f2c3d151820896ada9",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "raster",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "asci.png",
+      "source_url": "https://asci.school/wp-content/uploads/2019/07/ASCI-Logo-2-1.png",
+      "retrieved": "2026-10-14",
+      "sha256": "ba511cab91d1bdaa1c1de5bd39bdadf5fac93a4860e6a12216efe1acd8f5dfee",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "raster",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "deeplearn.png",
+      "source_url": "https://irdta.eu/wp-content/uploads/2022/01/logo-deeplearn.png",
+      "retrieved": "2026-10-14",
+      "sha256": "4b42668d964da419f0d3dfe7d85d81dc8b1fdafaa47a58d8f70a3639844aa176",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "raster",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "irdta-2024.png",
+      "source_url": "https://deeplearn.irdta.eu/2024/wp-content/uploads/sites/8/2021/06/logoirdta.png",
+      "retrieved": "2026-10-14",
+      "sha256": "177387ff7e150958999fb8c4f6238c5b5a8ea4825c62161a5da0c7fe1defbafc",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "raster",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "lorentz-center.jpg",
+      "source_url": "https://www.lorentzcenter.nl/site/images/logo.jpg",
+      "retrieved": "2026-10-14",
+      "sha256": "44d3c06fdea2c8e94d413ac1c9266b8292ba9c0dd0c9307a495e499c58328bb8",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "raster",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "ijcai-2025-color.png",
+      "source_url": "https://2025.ijcai.org/wp-content/themes/astra-child/img/IJCAI2025_Montreal_Logo.png",
+      "retrieved": "2026-10-14",
+      "sha256": "6aaa3a756eb282b6ecc6089bf96f4e48852c992199fa16a39a6f492873974ad2",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "raster",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "nvidia.svg",
+      "source_url": "https://www.nvidia.com/en-us/",
+      "retrieved": "2026-10-14",
+      "sha256": "41522d46fc5a8cc1963989e3aaf1db4cfc73c41763e8c017f1c36de2753786e7",
+      "usage": "Official source artwork, locally hosted to identify the named event or organizer. Original colors and geometry retained.",
+      "format": "vector",
+      "rights": "Original organization trademark and artwork; no claim of ownership or endorsement."
+    },
+    {
+      "file": "acl-arr.png",
+      "source_url": "https://aclrollingreview.org/images/ARR.png",
+      "source_page": "https://aclrollingreview.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "38c5a01754f9e3c3a4de75048cc085a3dfbc93bdf3e0728a480cd0315f90b316",
+      "format": "raster",
+      "usage": "Official artwork, served locally to identify the named venue. Original colors and geometry retained.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "ndss.svg",
+      "source_url": "https://www.ndss-symposium.org/wp-content/themes/ndss2/resources/assets/images/NDSS-Logo-120x37.svg",
+      "source_page": "https://www.ndss-symposium.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "3f2791a950fe5fb81c62d6373874d31acf8a99137aa5bc2e1c6f785e8f9718b3",
+      "format": "vector",
+      "usage": "Official artwork, served locally to identify the named venue. Original colors and geometry retained.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "ecml-pkdd-2026.png",
+      "source_url": "https://d1u5q3vcv714vh.cloudfront.net/eyJidWNrZXQiOiJlY21scGtkZC1zdG9yYWdlIiwia2V5IjoiZWNtbHBrZGQyMDI2XzRlZTkxZTRjM2IucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MTIsImhlaWdodCI6NTEyLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6IndoaXRlIn19fQ==",
+      "source_page": "https://ecmlpkdd.org/2026/",
+      "retrieved": "2026-10-14",
+      "sha256": "094fc6e4574c3e4e49e085d2bc19c3f58cb08e8297a5f30119f0973dfd9470c3",
+      "format": "raster",
+      "usage": "Official artwork, served locally to identify the named venue. Original colors and geometry retained.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "icassp-2027.png",
+      "source_url": "https://2027.ieeeicassp.org/wp-content/uploads/sites/13/2019/08/icassp27-logo-hr_color-01-1-scaled.png",
+      "source_page": "https://2027.ieeeicassp.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "a3d169754568e52505143120bceaec3c5a0c4420067c1bf81aaf8dc433a913a3",
+      "format": "raster",
+      "usage": "Official artwork, served locally to identify the named venue. Original colors and geometry retained.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "percom.png",
+      "source_url": "https://i0.wp.com/percom.org/PerCom2022/wp-content/uploads/2021/05/cropped-favicon48x48bianco.png?fit=192%2C192&ssl=1",
+      "source_page": "https://percom.org/PerCom2022/",
+      "retrieved": "2026-10-14",
+      "sha256": "5a3cc7478436c49c1922c82fcb87681727d9f287007b3f6e19870a50fc889797",
+      "format": "raster",
+      "usage": "Official artwork, served locally to identify the named venue or publisher.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "ieee.svg",
+      "source_url": "https://2025.ieeeicassp.org/wp-content/themes/ieee-dci/images/logo-ieee.svg",
+      "source_page": "https://2025.ieeeicassp.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "9d09673a4289b9e85dc9ba021bd77362fa9dc74a1a43b271abd9c5da479109d7",
+      "format": "vector",
+      "usage": "Official artwork, served locally to identify the named venue or publisher.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "arxiv.svg",
+      "source_url": "https://arxiv.org/static/base/1.0.1/images/arxiv-logo-primary-light.svg",
+      "source_page": "https://arxiv.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "13b7427e5d0e1359e32cbbdc9aafa70e77edd78731a27b44d257207953b30957",
+      "format": "vector",
+      "usage": "Official artwork, served locally to identify the named venue or publisher.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "percom-2023.png",
+      "source_url": "https://i0.wp.com/percom.org/2023/wp-content/uploads/2022/05/site_icon.png?fit=141%2C156&ssl=1",
+      "source_page": "https://percom.org/2023/",
+      "retrieved": "2026-10-14",
+      "sha256": "5071496b287be30de8f08e3b07aa8c47baf75c6fe38ce68fbe1c6f2e36bd4865",
+      "format": "raster",
+      "usage": "Official source artwork; locally hosted for venue or publisher identification.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "acm.svg",
+      "source_url": "https://www.acm.org/binaries/content/gallery/global/top-menu/acm_logo_mobile.svg",
+      "source_page": "https://www.acm.org/about-acm/acm-logo",
+      "retrieved": "2026-10-14",
+      "sha256": "db02ab4e180d4dbd1312d391e151fec70e40c75430c6207df3e54f7b87ae3e28",
+      "format": "vector",
+      "usage": "Official source artwork; locally hosted for venue or publisher identification.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "cikm-2025.png",
+      "source_url": "https://www.cikm2025.org/_images/logo.png",
+      "source_page": "https://www.cikm2025.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "6251bd58db0a8629baebee1bc07b37538a2f7e39cc602092d328c7457fe7d854",
+      "format": "raster",
+      "usage": "Official source artwork; locally hosted for venue or publisher identification.",
+      "rights": "Original organization trademark; no claim of endorsement."
+    },
+    {
+      "file": "elsevier.svg",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/elsevier.svg",
+      "source_page": "https://simpleicons.org/",
+      "retrieved": "2026-10-14",
+      "sha256": "9700541a0416e237073c353e86395c81c443a48637ef9cbd9b4633ebf7367f21",
+      "format": "vector",
+      "usage": "Publisher identity from Simple Icons. Use only for the corresponding publisher.",
+      "license": "CC0-1.0 icon collection; original publisher trademark retained."
+    },
+    {
+      "file": "ieee-bigdata-source.png",
+      "source_url": "https://www3.cs.stonybrook.edu/~ieeebigdata2024/images/lefttop_logo.png",
+      "source_page": "https://www3.cs.stonybrook.edu/~ieeebigdata2024/",
+      "retrieved": "2026-10-14",
+      "sha256": "9204fd62a337284f1fb1cc9a87c6ed056a7458c620ee2013f5df3ddb5d5e5e0a",
+      "format": "raster",
+      "usage": "Original 2024 conference header. The network emblem is cropped for badges, with theme-specific palettes.",
+      "rights": "Original organization artwork and trademark; no claim of endorsement."
+    },
+    {
+      "file": "springer.svg",
+      "source_url": "https://link.springer.com/oscar-static/images/brand-hubs/springer_logo-33a769fac2.svg",
+      "source_page": "https://link.springer.com/brands/springer/de",
+      "retrieved": "2026-10-14",
+      "sha256": "3d37f117c2f8fbd05ac8bbf56c3c87d7cc581eda51cf368e2f032ba6bb48747f",
+      "format": "vector",
+      "usage": "Official Springer publisher identity. Horse emblem and orange baseline extracted without redrawing; 360x440 transparent PNG variants use theme-adapted foreground colors. Used as publisher identification for UbiSec proceedings, not as a UbiSec logo.",
+      "rights": "Original publisher artwork and trademark; no claim of ownership or endorsement."
+    }
+  ]
+}

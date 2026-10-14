@@ -1,0 +1,209 @@
+/* Compact institutional identities shared by the chronology and CV. */
+.institution-link { display: inline-flex; align-items: center; gap: 6px; vertical-align: middle; color: var(--secondary); white-space: nowrap; font-weight: 600; }
+.institution-link img { display: block; object-fit: contain; flex-shrink: 0; }
+.institution-link .institution-logo-tue { width: 36px; height: 17px; }
+.institution-link .institution-logo-auth { width: 23px; height: 23px; }
+.institution-link .institution-logo-iris { width: 55px; height: 26px; }
+.institution-link-iris { border-radius: 3px; }
+.institution-link-iris:hover { opacity: .8; }
+.institution-link-iris:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.institution-logo-dark { display: none !important; }
+:root[data-theme='dark'] .institution-logo-tue { filter: invert(1); }
+:root[data-theme='dark'] .institution-logo-light { display: none; }
+:root[data-theme='dark'] .institution-logo-dark { display: block !important; }
+.journey-affiliation .institution-link { text-decoration: none; }
+.journey-affiliation .institution-link:hover { text-decoration: underline; }
+abbr[title] { text-decoration: none; }
+.authors a, .cv-supervision-list strong a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  text-underline-offset: 3px;
+}
+.authors a:hover, .authors a:focus-visible,
+.cv-supervision-list strong a:hover, .cv-supervision-list strong a:focus-visible {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+.cv-entry h3 a { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 30%, transparent); }
+.cv-entry h3 a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.cv-course-topics { margin: 8px 0 10px; padding: 0; list-style: none; display: grid; gap: 4px; }
+.cv-course-topics li { font-size: 0.8125rem; }
+/* Locally hosted official artwork. Preserve brand colors in both themes. */
+.venue-link { --brand-width: 40px; display: inline-flex; align-items: center; gap: 9px; max-width: 100%; }
+.venue-link[data-brand='asci'],
+.venue-link[data-brand='ijcai'],
+.venue-link[data-brand='lorentz'] { --brand-width: 58px; }
+.venue-link .brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--brand-width);
+  height: 40px;
+  padding: 4px;
+  flex: 0 0 var(--brand-width);
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 7px;
+  transition: border-color .15s;
+}
+.brand-logo { display: block; width: 100%; height: 100%; object-fit: contain; }
+.brand-logo-dark { display: none; }
+:root[data-theme='dark'] .brand-logo-light { display: none; }
+:root[data-theme='dark'] .brand-logo-dark { display: block; }
+.venue-link:is([data-brand='bigdata'], [data-brand='springer']) .brand-mark { background: transparent; border-color: var(--line); }
+.venue-link:hover .brand-mark { border-color: var(--accent); }
+:root[data-theme='dark'] .brand-mark { border-color: #cbd0d8; }
+.venue-link[data-brand='flower'] .brand-mark { background: transparent; border-color: var(--line); padding: 6px; }
+:root[data-theme='dark'] [data-brand='flower'] .brand-logo { filter: brightness(0) invert(1); }
+.brand-inline { --brand-width: 28px; gap: 5px; vertical-align: middle; }
+.brand-inline .brand-mark { height: 26px; padding: 2px; border-radius: 4px; }
+.venue-link > span { min-width: 0; }
+/* A shared first-line baseline keeps icon and text-only milestones aligned. */
+.journey-event h5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 40px;
+  margin: 3px 0 5px;
+}
+.journey-event h5 > a:not(.recording-link) {
+  position: relative;
+  display: block;
+  min-width: 0;
+  padding-block: 9.5px;
+  line-height: 1.5;
+}
+.journey-event h5 > .venue-link { padding-left: calc(var(--brand-width) + 9px); }
+.journey-event .venue-link .brand-mark { position: absolute; left: 0; top: 0; }
+.journey-event h5 > .recording-link { min-height: 40px; }
+.milestone-count {
+  padding: 1px 5px;
+  border-radius: 4px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--accent) 9%, var(--bg));
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.journey-event .event-location, .cv-entry .event-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-style: italic;
+}
+.location-mark { display: block; width: 13px; height: 13px; flex: 0 0 13px; }
+.cv-conference-list { grid-template-columns: repeat(auto-fit, minmax(min(225px, 100%), 1fr)); gap: 22px 26px; }
+.cv-conference-list > li { min-width: 0; }
+.cv-conference-list .venue-title { margin: 0 0 5px; font-size: 0.9375rem; }
+.cv-conference-list .venue-link > span:not(.brand-mark) { color: var(--ink); }
+.cv-conference-list p { margin: 0; font-size: 0.8125rem; }
+.flower-recording { display: inline-flex; align-items: center; gap: 7px; min-height: 32px; color: var(--ink); }
+.flower-recording:hover { color: var(--accent); }
+/* Transparent play controls keep the YouTube silhouette crisp at small sizes. */
+.talk-title { display: flex; align-items: center; gap: 8px; }
+a.recording-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 32px;
+  min-height: 32px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--secondary);
+  vertical-align: middle;
+  text-decoration: none;
+}
+a.recording-link:hover { color: var(--accent); background: var(--chip); text-decoration: none; }
+.youtube-mark { display: block; width: 24px; height: 24px; fill: currentColor; }
+@media (any-pointer: coarse) {
+  a.recording-link { width: 44px; min-height: 44px; }
+  .flower-recording, .venue-link { min-height: 44px; }
+  .journey-event h5 > a:not(.recording-link) { padding-block: 11.5px; min-height: 44px; }
+  .journey-event h5 > .recording-link { min-height: 44px; }
+  .journey-event .venue-link .brand-mark { top: 2px; }
+}
+@media print {
+  .venue-link .brand-mark { background: #fff; border-color: #ddd; }
+  :root[data-theme] .brand-logo-light { display: block; }
+  :root[data-theme] .brand-logo-dark { display: none; }
+  :root[data-theme] [data-brand='flower'] .brand-logo { filter: none; }
+  :root[data-theme] .institution-logo-tue { filter: none; }
+  :root[data-theme] .institution-logo-light { display: block; }
+  :root[data-theme] .institution-logo-dark { display: none !important; }
+}
+
+.journey-event h5.journey-text-title { min-height: 0; margin-block: 9px; }
+
+/* One badge scale across publication metadata, service and student outcomes. */
+.venue-link.brand-inline { --brand-width: 28px; gap: 7px; }
+.venue-link.brand-inline .brand-mark { height: 28px; }
+.brand-glyph { width: 21px; height: 21px; color: var(--secondary); }
+[data-brand='ubisec'] .brand-mark { background: var(--bg); border-color: var(--line); }
+.venue-link:is([data-brand='ndss'], [data-brand='ecml-pkdd'], [data-brand='arxiv'], [data-brand='elsevier']) .brand-mark {
+  background: transparent;
+  border-color: var(--line);
+}
+:is([data-brand='ndss'], [data-brand='ecml-pkdd'], [data-brand='arxiv'], [data-brand='elsevier']) .brand-logo { filter: brightness(0); }
+:root[data-theme='dark'] :is([data-brand='ndss'], [data-brand='ecml-pkdd'], [data-brand='arxiv'], [data-brand='elsevier']) .brand-logo { filter: brightness(0) invert(1); }
+/* ARR's official raster has an opaque white interior. Blend that interior
+   into the page, preserving the original lettering and antialiased edge. */
+.venue-link[data-brand='acl-arr'] .brand-mark { background: transparent; border-color: var(--line); }
+[data-brand='acl-arr'] .brand-logo { filter: grayscale(1); mix-blend-mode: multiply; }
+:root[data-theme='dark'] [data-brand='acl-arr'] .brand-logo { filter: grayscale(1) invert(1); mix-blend-mode: screen; }
+.pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 7px; }
+.pub-meta .venue-link { font: inherit; color: inherit; min-width: 0; }
+.pub-meta .venue-link > span:not(.brand-mark) { color: inherit; }
+.pub-meta .brand-mark { width: 24px; height: 24px; flex-basis: 24px; }
+.pub-meta .brand-glyph { width: 17px; height: 17px; }
+.publication .pub-event { display: flex; align-items: baseline; gap: 5px; margin: 5px 0 8px; color: var(--muted); font-size: 0.8125rem; line-height: 1.7; font-style: italic; }
+.publication .pub-event .location-mark { align-self: flex-start; margin-top: 3px; }
+.publication .pub-event a { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 30%, transparent); text-underline-offset: 2px; }
+.publication .pub-event a:hover { color: var(--accent); }
+.related-meta { display: flex; flex-wrap: wrap; align-items: center; margin-top: 5px; font-size: 0.8125rem; }
+.related-meta .brand-mark { width: 24px; height: 24px; flex-basis: 24px; }
+.publication .related-publications .pub-event { margin: 2px 0 0; }
+.cv-service-list .venue-link { align-items: flex-start; font-size: inherit; }
+.cv-service-list .cv-service-context { margin-left: 35px; text-decoration: none; color: var(--muted); }
+.cv-student-venue .venue-link { font-size: 0.8125rem; }
+.cv-student-venue .brand-mark { width: 22px; height: 22px; flex-basis: 22px; }
+
+/* Service is one scannable block per year, with precise roles beneath venues. */
+.journey-service > .academic-service-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 32px;
+  padding: 0;
+  margin: 14px 0 0;
+  list-style: none;
+}
+.journey-service .academic-service-list li { min-width: 0; }
+.journey-service .venue-link { color: var(--ink); font-size: 0.8125rem; font-weight: 600; }
+.journey-year-note.journey-service h5 { display: block !important; margin: 0; font-size: 0.9375rem !important; }
+.journey-year-note.journey-service .academic-service-role {
+  display: block !important;
+  margin: 3px 0 0 35px;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+.academic-service-context { color: var(--muted); }
+.academic-service-context::before { content: ' · '; white-space: pre; }
+@media (max-width: 700px) {
+  .journey-service > .academic-service-list { grid-template-columns: minmax(0, 1fr); gap: 15px; }
+}
+@media (max-width: 880px) {
+  .cv-service-list .cv-service-role { margin-left: 35px; }
+}
+@media print {
+  :root[data-theme] :is([data-brand='ndss'], [data-brand='ecml-pkdd'], [data-brand='arxiv'], [data-brand='elsevier']) .brand-logo { filter: brightness(0); }
+  :root[data-theme] [data-brand='acl-arr'] .brand-logo { filter: grayscale(1); mix-blend-mode: multiply; }
+}
+/* Honour labels can reflow when readers enlarge text. */
+.milestone-count { display: inline-block; max-width: 100%; white-space: normal; }

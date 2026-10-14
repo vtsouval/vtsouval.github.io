@@ -1,0 +1,52 @@
+{
+  "retrieved": "2026-10-14",
+  "assets": [
+    {
+      "files": [
+        "tue.svg"
+      ],
+      "institution": "Eindhoven University of Technology",
+      "short_name": "TU/e",
+      "website": "https://www.tue.nl/en/",
+      "source": "https://www.tue.nl/typo3conf/ext/tue_menu/Resources/Public/Sprite/sprite.35ce45cd45.svg#tueLogo",
+      "notes": "Official vector mark extracted without changing its geometry. Used to identify academic affiliation. Monochrome presentation follows the website theme."
+    },
+    {
+      "files": [
+        "auth-black.png",
+        "auth-white.png"
+      ],
+      "institution": "Aristotle University of Thessaloniki",
+      "short_name": "AUTh",
+      "website": "https://www.auth.gr/en/",
+      "source": "https://www.auth.gr/en/auth-logo-en/",
+      "asset_sources": [
+        "https://www.auth.gr/wp-content/uploads/LogoAUTHblack72ppi.png",
+        "https://www.auth.gr/wp-content/uploads/LogoAUTHwhite72ppi.png"
+      ],
+      "license": "CC BY-SA 3.0, as stated on the university website",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "notes": "Unmodified official black and white marks. Used to identify academic affiliation."
+    },
+    {
+      "files": [
+        "iris-source.png",
+        "iris-light.png",
+        "iris-dark.png"
+      ],
+      "institution": "Interconnected Resource-aware Intelligent Systems",
+      "short_name": "IRIS",
+      "website": "https://iris.win.tue.nl/",
+      "source": "https://iris.win.tue.nl/.publisher/sd/examples/examplesite/img/favicons/group-logo.png",
+      "source_sha256": "826f90de43d4d520d62b476d0688963660e2f9704206e4adfe046c3da22863b4",
+      "source_crop": {
+        "left": 51,
+        "top": 69,
+        "width": 538,
+        "height": 253
+      },
+      "notes": "Original emblem and wordmark only; TU/e portion excluded. Transparent PNGs retain source geometry and native resolution. Dark palette is adapted for contrast. Rebuild with scripts/build_raster_marks.cjs.",
+      "rights": "Original organization artwork and trademark; no claim of ownership or endorsement."
+    }
+  ]
+}

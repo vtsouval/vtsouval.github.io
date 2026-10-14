@@ -3,7 +3,7 @@
     "year": 2026,
     "title": "AutoEncoder-Compressed Parallel Split Learning for Pre-Trained Model Fine-Tuning",
     "authors": "B. Meuwissen, V. Tsouvalas, N. Meratnia",
-    "venue": "WAFL @ ECML-PKDD",
+    "venue": "WAFL @ ECML-PKDD 2026",
     "type": "Workshop",
     "topics": [
       "efficient",
@@ -31,13 +31,25 @@
     "sources": [
       "https://arxiv.org/abs/2607.17913",
       "https://github.com/Nousphera/AE_PSL#readme"
-    ]
+    ],
+    "event": {
+      "location": "Naples, Italy",
+      "url": "https://wafl2026.di.unito.it/",
+      "sources": [
+        "https://wafl2026.di.unito.it/",
+        "https://ecmlpkdd.org/2026/"
+      ],
+      "date_label": "11 September 2026",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "date_scope": "workshop"
+    }
   },
   {
     "year": 2025,
     "title": "Many-Task Federated Fine-Tuning via Unified Task Vectors",
     "authors": "V. Tsouvalas, T. Ozcelebi, N. Meratnia",
-    "venue": "FedGenAI @ IJCAI",
+    "venue": "FedGenAI @ IJCAI 2025",
     "type": "Workshop",
     "topics": [
       "federated",
@@ -63,13 +75,24 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2502.06376"
-    ]
+    ],
+    "event": {
+      "location": "Montreal, Canada",
+      "url": "https://federated-learning.org/FedGenAI-ijcai-2025/",
+      "sources": [
+        "https://federated-learning.org/FedGenAI-ijcai-2025/"
+      ],
+      "date_label": "18 August 2025",
+      "start_date": "2025-08-18",
+      "end_date": "2025-08-18",
+      "date_scope": "workshop"
+    }
   },
   {
     "year": 2025,
     "title": "Fine-Tuning Multimodal Transformers on Edge: A Parallel Split Learning Approach",
     "authors": "T. Fudala, V. Tsouvalas, N. Meratnia",
-    "venue": "FedGenAI @ IJCAI",
+    "venue": "FedGenAI @ IJCAI 2025",
     "type": "Workshop",
     "topics": [
       "efficient",
@@ -97,13 +120,24 @@
     "sources": [
       "https://arxiv.org/abs/2502.06355",
       "https://github.com/Nousphera/MPSL#readme"
-    ]
+    ],
+    "event": {
+      "location": "Montreal, Canada",
+      "url": "https://federated-learning.org/FedGenAI-ijcai-2025/",
+      "sources": [
+        "https://federated-learning.org/FedGenAI-ijcai-2025/"
+      ],
+      "date_label": "18 August 2025",
+      "start_date": "2025-08-18",
+      "end_date": "2025-08-18",
+      "date_scope": "workshop"
+    }
   },
   {
     "year": 2025,
     "title": "EFU: Enforcing Federated Unlearning via Functional Encryption",
     "authors": "S. Mohammadi, V. Tsouvalas, I. Symeonidis, A. Balador, T. Ozcelebi, F. Flammini, N. Meratnia",
-    "venue": "ACM CIKM",
+    "venue": "ACM CIKM 2025",
     "type": "Conference",
     "topics": [
       "privacy",
@@ -112,7 +146,7 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2508.07873",
       "Project": "https://nousphera.github.io/projects/efu/",
-      "Published version": "https://doi.org/10.1145/3746252.3761091",
+      "Published Version": "https://doi.org/10.1145/3746252.3761091",
       "Code": "https://github.com/SamaneMohammadi/EFU",
       "Repository": "https://github.com/Nousphera/EFU",
       "Poster": "https://nousphera.github.io/assets/posters/efu-a0-landscape.pdf"
@@ -132,7 +166,19 @@
     "sources": [
       "https://arxiv.org/abs/2508.07873",
       "https://github.com/SamaneMohammadi/EFU#readme"
-    ]
+    ],
+    "event": {
+      "location": "Seoul, South Korea",
+      "url": "https://cikm2025.org/attend/venue",
+      "sources": [
+        "https://cikm2025.org/calls/full-research-papers",
+        "https://cikm2025.org/attend/venue"
+      ],
+      "date_label": "10–14 November 2025",
+      "start_date": "2025-11-10",
+      "end_date": "2025-11-14",
+      "date_scope": "conference"
+    }
   },
   {
     "year": 2025,
@@ -148,7 +194,7 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2406.09152",
       "Project": "https://nousphera.github.io/projects/enccluster/",
-      "Published version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100",
+      "Published Version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100",
       "Code": "https://github.com/SamaneMohammadi/EncCluster",
       "Repository": "https://github.com/Nousphera/EncCluster",
       "Poster": "https://nousphera.github.io/assets/posters/enccluster-a0-landscape.pdf"
@@ -168,13 +214,31 @@
     "sources": [
       "https://arxiv.org/abs/2406.09152",
       "https://github.com/SamaneMohammadi/EncCluster#readme"
+    ],
+    "related": [
+      {
+        "title": "EncCluster: Bringing Functional Encryption in Federated Foundational Models",
+        "venue": "FL@FM @ NeurIPS 2024 · Workshop",
+        "url": "https://openreview.net/forum?id=7bgJ7t5kkW",
+        "event": {
+          "location": "Vancouver, Canada",
+          "url": "https://federated-learning.org/fl@fm-neurips-2024/",
+          "sources": [
+            "https://federated-learning.org/fl@fm-neurips-2024/"
+          ],
+          "date_label": "15 December 2024",
+          "start_date": "2024-12-15",
+          "end_date": "2024-12-15",
+          "date_scope": "workshop"
+        }
+      }
     ]
   },
   {
     "year": 2024,
     "title": "DeltaMask: Minimizing Communication in Federated Fine-Tuning of Vision Foundation Models",
     "authors": "V. Tsouvalas, Y. M. Asano, A. Saeed",
-    "venue": "IEEE BigData 2024",
+    "venue": "IEEE Big Data 2024",
     "type": "Conference",
     "topics": [
       "federated",
@@ -192,7 +256,19 @@
       {
         "title": "Federated Fine-Tuning of Vision Foundation Models via Probabilistic Masking",
         "venue": "FM-Wild @ ICML 2024 · Workshop",
-        "url": "https://openreview.net/forum?id=VDgx8JLtid"
+        "url": "https://openreview.net/forum?id=VDgx8JLtid",
+        "event": {
+          "location": "Vienna, Austria",
+          "url": "https://fm-wild-community.github.io/index_2024.html",
+          "sources": [
+            "https://icml.cc/Conferences/2024",
+            "https://fm-wild-community.github.io/index_2024.html"
+          ],
+          "date_scope": "workshop",
+          "start_date": "2024-07-26",
+          "end_date": "2024-07-26",
+          "date_label": "26 July 2024"
+        }
       }
     ],
     "summary": "DeltaMask adapts vision foundation models in federated learning by learning stochastic masks that select effective subnetworks. It compresses sparse mask updates with probabilistic filters to reduce communication below one bit per model parameter.",
@@ -210,7 +286,19 @@
     "sources": [
       "https://arxiv.org/abs/2311.17299",
       "https://research.tue.nl/files/349909071/2024337517.pdf"
-    ]
+    ],
+    "event": {
+      "location": "Washington, DC, USA",
+      "url": "https://www3.cs.stonybrook.edu/~ieeebigdata2024/",
+      "sources": [
+        "https://www3.cs.stonybrook.edu/~ieeebigdata2024/",
+        "https://research.tue.nl/en/publications/deltamask-minimizing-communication-in-federated-fine-tuning-of-vi/"
+      ],
+      "date_label": "15–18 December 2024",
+      "start_date": "2024-12-15",
+      "end_date": "2024-12-18",
+      "date_scope": "conference"
+    }
   },
   {
     "year": 2024,
@@ -233,7 +321,19 @@
       {
         "title": "Federated Learning with Noisy Labels: Achieving Generalization in the Face of Label Noise",
         "venue": "INTERPOLATE @ NeurIPS 2022 · Workshop",
-        "url": "https://openreview.net/pdf?id=gNHMC4I0Pva"
+        "url": "https://openreview.net/pdf?id=gNHMC4I0Pva",
+        "event": {
+          "location": "New Orleans, USA",
+          "url": "https://sites.google.com/view/interpolation-workshop",
+          "sources": [
+            "https://neurips.cc/Conferences/2022",
+            "https://sites.google.com/view/interpolation-workshop"
+          ],
+          "date_scope": "workshop",
+          "start_date": "2022-12-02",
+          "end_date": "2022-12-02",
+          "date_label": "2 December 2022"
+        }
       }
     ],
     "summary": "FedLN addresses noisy labels during federated model initialization, local training and server aggregation. It estimates each client's noise level in a single federated round and uses this estimate to correct labels or reduce the influence of unreliable samples.",
@@ -258,7 +358,7 @@
     "year": 2024,
     "title": "Communication-Efficient Federated Learning through Adaptive Weight Clustering and Server-Side Distillation",
     "authors": "V. Tsouvalas, A. Saeed, T. Ozcelebi, N. Meratnia",
-    "venue": "IEEE ICASSP",
+    "venue": "IEEE ICASSP 2024",
     "type": "Conference",
     "topics": [
       "federated",
@@ -286,13 +386,24 @@
     "sources": [
       "https://arxiv.org/abs/2401.14211",
       "https://github.com/Nousphera/FedCompress#readme"
-    ]
+    ],
+    "event": {
+      "location": "Seoul, South Korea",
+      "url": "https://signalprocessingsociety.org/events/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing",
+      "sources": [
+        "https://signalprocessingsociety.org/events/icassp-2024-2024-ieee-international-conference-acoustics-speech-and-signal-processing"
+      ],
+      "date_label": "14–19 April 2024",
+      "start_date": "2024-04-14",
+      "end_date": "2024-04-19",
+      "date_scope": "conference"
+    }
   },
   {
     "year": 2024,
     "title": "FedCode: Communication-Efficient Federated Learning via Transferring Codebooks",
     "authors": "S. Khalilian, V. Tsouvalas, T. Ozcelebi, N. Meratnia",
-    "venue": "IEEE EDGE",
+    "venue": "IEEE EDGE 2024",
     "type": "Conference",
     "topics": [
       "federated",
@@ -301,7 +412,7 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2311.09270",
       "Project": "https://nousphera.github.io/projects/fedcode/",
-      "Published version": "https://ieeexplore.ieee.org/document/10646450/",
+      "Published Version": "https://ieeexplore.ieee.org/document/10646450/",
       "Code": "https://github.com/Nousphera/FedCode",
       "Repository": "https://github.com/Nousphera/FedCode",
       "Poster": "https://nousphera.github.io/assets/posters/fedcode-a0-landscape.pdf"
@@ -322,7 +433,20 @@
     "sources": [
       "https://arxiv.org/abs/2311.09270",
       "https://github.com/vtsouval/FedCode#readme"
-    ]
+    ],
+    "event": {
+      "location": "Shenzhen, China",
+      "url": "https://research.tue.nl/nl/publications/fedcode-communication-efficient-federated-learning-via-transferri/",
+      "sources": [
+        "https://research.tue.nl/nl/publications/fedcode-communication-efficient-federated-learning-via-transferri/"
+      ],
+      "date_label": "7–13 July 2024",
+      "start_date": "2024-07-07",
+      "end_date": "2024-07-13",
+      "date_scope": "conference",
+      "attendance": "virtual",
+      "attendance_source": "Confirmed by the author in this conversation on 2026-10-14"
+    }
   },
   {
     "year": 2024,
@@ -354,7 +478,23 @@
     ],
     "sources": [
       "https://research.tue.nl/en/publications/on-the-effectiveness-of-invisible-backdoor-attacks-in-federated-l/"
-    ]
+    ],
+    "event": {
+      "location": "Changsha, China",
+      "url": "https://research.tue.nl/en/publications/on-the-effectiveness-of-invisible-backdoor-attacks-in-federated-l/",
+      "sources": [
+        "https://research.tue.nl/en/publications/on-the-effectiveness-of-invisible-backdoor-attacks-in-federated-l/"
+      ],
+      "date_label": "29–31 December 2024",
+      "start_date": "2024-12-29",
+      "end_date": "2024-12-31",
+      "attendance": "virtual",
+      "attendance_source": "Confirmed by the author in this conversation on 2026-10-14",
+      "date_scope": "conference"
+    },
+    "publisher": "Springer",
+    "publication_date": "2025-05-16",
+    "proceedings_series": "Communications in Computer and Information Science (CCIS), volume 2469"
   },
   {
     "year": 2023,
@@ -393,7 +533,7 @@
     "year": 2023,
     "title": "On the Efficacy of Meta-Learning for Domain Generalization in Speech Emotion Recognition",
     "authors": "R. K. Gandhi, V. Tsouvalas, N. Meratnia",
-    "venue": "PerFail @ IEEE PerCom",
+    "venue": "PerFail @ IEEE PerCom 2023",
     "type": "Workshop",
     "topics": [
       "supervision"
@@ -421,7 +561,19 @@
     "sources": [
       "https://research.tue.nl/en/publications/on-efficacy-of-meta-learning-for-domain-generalization-in-speech-/",
       "https://github.com/vtsouval/DA_MLDG#readme"
-    ]
+    ],
+    "event": {
+      "location": "Atlanta, USA",
+      "url": "https://perfail-workshop.github.io/2023/",
+      "sources": [
+        "https://perfail-workshop.github.io/2023/",
+        "https://research.tue.nl/en/publications/on-efficacy-of-meta-learning-for-domain-generalization-in-speech-/"
+      ],
+      "date_label": "17 March 2023",
+      "start_date": "2023-03-17",
+      "end_date": "2023-03-17",
+      "date_scope": "workshop"
+    }
   },
   {
     "year": 2022,
@@ -444,7 +596,20 @@
       {
         "title": "Federated Self-Training for Data-Efficient Audio Recognition",
         "venue": "IEEE ICASSP 2022 · Conference",
-        "url": "https://ieeexplore.ieee.org/document/9746356"
+        "url": "https://ieeexplore.ieee.org/document/9746356",
+        "event": {
+          "location": "Singapore",
+          "url": "https://2022.ieeeicassp.org/",
+          "sources": [
+            "https://2022.ieeeicassp.org/"
+          ],
+          "date_label": "22–27 May 2022",
+          "start_date": "2022-05-22",
+          "end_date": "2022-05-27",
+          "attendance": "virtual",
+          "attendance_source": "Confirmed by the author in this conversation on 2026-10-14",
+          "date_scope": "conference"
+        }
       }
     ],
     "summary": "FedSTAR combines federated learning with self-training to use unlabeled audio stored on client devices. It also studies self-supervised pre-training as an initialization that reduces the number of federated training rounds needed for convergence.",
@@ -469,7 +634,7 @@
     "year": 2022,
     "title": "Privacy-Preserving Speech Emotion Recognition through Semi-Supervised Federated Learning",
     "authors": "V. Tsouvalas, T. Ozcelebi, N. Meratnia",
-    "venue": "EmotionAware @ IEEE PerCom",
+    "venue": "EmotionAware @ IEEE PerCom 2022",
     "type": "Workshop",
     "topics": [
       "federated",
@@ -479,12 +644,14 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2202.02611",
       "Project": "https://nousphera.github.io/projects/fedser/",
-      "Published version": "https://ieeexplore.ieee.org/document/9767445",
+      "Published Version": "https://ieeexplore.ieee.org/document/9767445",
       "Repository": "https://github.com/Nousphera/FedSER",
-      "Poster": "https://nousphera.github.io/assets/posters/fedser-a0-landscape.pdf"
+      "Poster": "https://nousphera.github.io/assets/posters/fedser-a0-landscape.pdf",
+      "Video": "https://www.youtube.com/watch?v=aJ4A5wL6G8c"
     },
     "summary": "This work applies federated self-training to speech emotion recognition using both labeled and unlabeled on-device audio. Experiments on IEMOCAP examine learning with scarce labels and strongly non-IID client data.",
     "keywords": [
+      "FedSER",
       "speech emotion recognition",
       "SER",
       "federated learning",
@@ -497,6 +664,20 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2202.02611"
-    ]
+    ],
+    "event": {
+      "location": "Pisa, Italy",
+      "url": "https://percom.org/PerCom2022/full-program/",
+      "sources": [
+        "https://percom.org/PerCom2022/",
+        "https://research.tue.nl/en/publications/privacy-preserving-speech-emotion-recognition-through-semi-superv/",
+        "https://percom.org/PerCom2022/full-program/"
+      ],
+      "date_label": "25 March 2022",
+      "start_date": "2022-03-25",
+      "end_date": "2022-03-25",
+      "format": "virtual",
+      "date_scope": "workshop"
+    }
   }
 ]

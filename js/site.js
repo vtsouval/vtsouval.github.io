@@ -3,13 +3,12 @@
   const tools = document.querySelector('.publication-tools');
   const filters = document.querySelector('.filters');
   const input = document.querySelector('#publication-search');
-  const yearSelect = document.querySelector('#publication-year');
   const count = document.querySelector('#publication-count');
   const clear = document.querySelector('#clear-search');
   const reset = document.querySelector('#reset-search');
   const empty = document.querySelector('#publication-empty');
   const search = window.PublicationSearch;
-  if (!tools || !filters || !input || !yearSelect || !count || !clear || !reset || !empty || !search) return;
+  if (!tools || !filters || !input || !count || !clear || !reset || !empty || !search) return;
 
   const records = [...document.querySelectorAll('.publication')].map(element => ({
     element,
@@ -24,15 +23,7 @@
     badge.className = 'filter-count';
     button.append(document.createTextNode(' '), badge);
   }
-  const years = [...new Set(records.map(record => record.year))].filter(Boolean).sort((a, b) => Number(b) - Number(a));
-  while (yearSelect.options.length > 1) yearSelect.remove(1);
-  for (const year of years) {
-    const option = document.createElement('option');
-    option.value = year;
-    option.textContent = year;
-    yearSelect.append(option);
-  }
-  const options = { topics: buttons.map(button => button.dataset.filter), years: ['all', ...years] };
+  const options = { topics: buttons.map(button => button.dataset.filter), years: ['all'] };
   let state = search.readState(window.location.search, options);
 
   function render(syncURL = true) {
@@ -48,7 +39,6 @@
       button.querySelector('.filter-count').textContent = topicCounts[button.dataset.filter];
     }
     input.value = state.query;
-    yearSelect.value = state.year;
     clear.hidden = !state.query;
     empty.hidden = visible > 0;
     count.textContent = visible === records.length ? `${visible} publications` : `${visible} of ${records.length} publications`;
@@ -78,10 +68,6 @@
     render();
     input.focus();
   });
-  yearSelect.addEventListener('change', () => {
-    state.year = yearSelect.value;
-    render();
-  });
   filters.addEventListener('click', event => {
     const button = event.target.closest('button[data-filter]');
     if (!button || !filters.contains(button)) return;
@@ -104,25 +90,12 @@
       document.querySelector('#publications').scrollIntoView({ block: 'start' });
     });
   }
-  for (const keyword of document.querySelectorAll('.pub-keyword[data-keyword]')) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'pub-keyword';
-    button.dataset.keyword = keyword.dataset.keyword;
-    button.textContent = keyword.textContent;
-    keyword.replaceWith(button);
-    button.addEventListener('click', () => {
-      state = { query: button.dataset.keyword, topic: 'all', year: 'all' };
-      render();
-      input.focus({ preventScroll: true });
-      tools.scrollIntoView({ block: 'start' });
-    });
-  }
   window.addEventListener('popstate', () => {
     state = search.readState(window.location.search, options);
     render(false);
   });
   document.addEventListener('keydown', event => {
+    if (document.querySelector('dialog[open]')) return;
     if (event.key !== '/' || event.defaultPrevented || event.ctrlKey || event.metaKey || event.altKey || event.isComposing) return;
     if (event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
     event.preventDefault();

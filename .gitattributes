@@ -29,6 +29,8 @@ Dockerfile text eol=lf
 *.json text eol=lf
 
 # General multimedia files
+*.pdf binary
+*.woff2 binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
