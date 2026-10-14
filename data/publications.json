@@ -12,7 +12,9 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2607.17913",
       "Project": "https://nousphera.github.io/projects/ae-psl/",
-      "Code": "https://github.com/Nousphera/AE_PSL"
+      "Code": "https://github.com/Nousphera/AE_PSL",
+      "Repository": "https://github.com/Nousphera/AE_PSL",
+      "Poster": "https://nousphera.github.io/assets/posters/ae-psl-a0-landscape.pdf"
     },
     "summary": "AE-PSL uses a lightweight autoencoder to compress activations and gradients exchanged during parallel split learning. A two-stage alignment procedure adapts the compressor to a pre-trained foundation model and client-specific feature distributions before distributed fine-tuning.",
     "keywords": [
@@ -43,7 +45,9 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2502.06376",
-      "Project": "https://nousphera.github.io/projects/matu/"
+      "Project": "https://nousphera.github.io/projects/matu/",
+      "Repository": "https://github.com/Nousphera/MaTU",
+      "Poster": "https://nousphera.github.io/assets/posters/matu-a0-landscape.pdf"
     },
     "summary": "MaTU combines task vectors into a shared representation for federated clients with different or multiple tasks. Lightweight task-specific modulators support transfer between related tasks while separating dissimilar ones, without storing a separate client model at the server.",
     "keywords": [
@@ -74,7 +78,9 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2502.06355",
       "Project": "https://nousphera.github.io/projects/mpsl/",
-      "Code": "https://github.com/Nousphera/MPSL"
+      "Code": "https://github.com/Nousphera/MPSL",
+      "Repository": "https://github.com/Nousphera/MPSL",
+      "Poster": "https://nousphera.github.io/assets/posters/mpsl-a0-landscape.pdf"
     },
     "summary": "MPSL fine-tunes multimodal transformers through parallel split learning, using lightweight client tokenizers and a shared modality-agnostic encoder. It reduces client computation while avoiding label sharing, synchronized client execution and separate server models for each client.",
     "keywords": [
@@ -107,7 +113,9 @@
       "Paper": "https://arxiv.org/abs/2508.07873",
       "Project": "https://nousphera.github.io/projects/efu/",
       "Published version": "https://doi.org/10.1145/3746252.3761091",
-      "Code": "https://github.com/SamaneMohammadi/EFU"
+      "Code": "https://github.com/SamaneMohammadi/EFU",
+      "Repository": "https://github.com/Nousphera/EFU",
+      "Poster": "https://nousphera.github.io/assets/posters/efu-a0-landscape.pdf"
     },
     "summary": "EFU uses functional encryption to enforce client-initiated federated unlearning while concealing unlearning requests from the aggregation server. Auxiliary losses aim to hide behavioral and parameter changes while removing the influence of forgotten data.",
     "keywords": [
@@ -141,7 +149,9 @@
       "Paper": "https://arxiv.org/abs/2406.09152",
       "Project": "https://nousphera.github.io/projects/enccluster/",
       "Published version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100",
-      "Code": "https://github.com/SamaneMohammadi/EncCluster"
+      "Code": "https://github.com/SamaneMohammadi/EncCluster",
+      "Repository": "https://github.com/Nousphera/EncCluster",
+      "Poster": "https://nousphera.github.io/assets/posters/enccluster-a0-landscape.pdf"
     },
     "summary": "EncCluster combines model weight clustering, decentralized functional encryption and probabilistic filters for secure federated aggregation. The design reduces the amount of data requiring expensive encryption and limits communication overhead on resource-constrained clients.",
     "keywords": [
@@ -174,7 +184,9 @@
     "links": {
       "Paper": "https://research.tue.nl/files/349909071/2024337517.pdf",
       "Project": "https://nousphera.github.io/projects/deltamask/",
-      "Preprint": "https://arxiv.org/abs/2311.17299"
+      "Preprint": "https://arxiv.org/abs/2311.17299",
+      "Repository": "https://github.com/Nousphera/DeltaMask",
+      "Poster": "https://nousphera.github.io/assets/posters/deltamask-a0-landscape.pdf"
     },
     "related": [
       {
@@ -213,7 +225,9 @@
     "links": {
       "Paper": "https://doi.org/10.1145/3626242",
       "Project": "https://nousphera.github.io/projects/fedln/",
-      "Code": "https://github.com/Nousphera/FedLN"
+      "Code": "https://github.com/Nousphera/FedLN",
+      "Repository": "https://github.com/Nousphera/FedLN",
+      "Poster": "https://nousphera.github.io/assets/posters/fedln-a0-landscape.pdf"
     },
     "related": [
       {
@@ -253,7 +267,9 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2401.14211",
       "Project": "https://nousphera.github.io/projects/fedcompress/",
-      "Code": "https://github.com/Nousphera/FedCompress"
+      "Code": "https://github.com/Nousphera/FedCompress",
+      "Repository": "https://github.com/Nousphera/FedCompress",
+      "Poster": "https://nousphera.github.io/assets/posters/fedcompress-a0-landscape.pdf"
     },
     "summary": "FedCompress combines adaptive weight clustering with knowledge distillation on the server to reduce federated communication. Its compression strategy targets communication cost and inference efficiency while retaining model generalization.",
     "keywords": [
@@ -286,7 +302,9 @@
       "Paper": "https://arxiv.org/abs/2311.09270",
       "Project": "https://nousphera.github.io/projects/fedcode/",
       "Published version": "https://ieeexplore.ieee.org/document/10646450/",
-      "Code": "https://github.com/vtsouval/FedCode"
+      "Code": "https://github.com/Nousphera/FedCode",
+      "Repository": "https://github.com/Nousphera/FedCode",
+      "Poster": "https://nousphera.github.io/assets/posters/fedcode-a0-landscape.pdf"
     },
     "summary": "FedCode exchanges codebooks of model-weight cluster centers instead of full weight updates in most federated rounds. Periodic weight transfers recalibrate the client and server models, reducing communication in both directions.",
     "keywords": [
@@ -318,7 +336,9 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1007/978-981-96-4836-8_13",
-      "Project": "https://nousphera.github.io/projects/fiba/"
+      "Project": "https://nousphera.github.io/projects/fiba/",
+      "Repository": "https://github.com/Nousphera/FiBA",
+      "Poster": "https://nousphera.github.io/assets/posters/fiba-a0-landscape.pdf"
     },
     "summary": "This study evaluates invisible backdoor attacks in federated learning under different training settings and defenses. It examines how limited local training and model aggregation affect attack success, and investigates attention-based trigger placement.",
     "keywords": [
@@ -348,7 +368,10 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2305.03058",
-      "Project": "https://nousphera.github.io/projects/plix/"
+      "Project": "https://nousphera.github.io/projects/plix/",
+      "Repository": "https://github.com/Nousphera/PLiX",
+      "Poster": "https://nousphera.github.io/assets/posters/plix-a0-landscape.pdf",
+      "Code": "https://huggingface.co/aaqibsaeed/plixkws"
     },
     "summary": "PLiX is a multilingual keyword-spotting approach that recognizes previously unseen spoken words from a few support examples. Models trained on short speech clips from 20 languages are evaluated on new keywords and languages without task-specific retraining.",
     "keywords": [
@@ -378,7 +401,9 @@
     "links": {
       "Paper": "https://ieeexplore.ieee.org/document/10150265/",
       "Project": "https://nousphera.github.io/projects/da-mldg/",
-      "Code": "https://github.com/vtsouval/DA_MLDG"
+      "Code": "https://github.com/Nousphera/DA_MLDG",
+      "Repository": "https://github.com/Nousphera/DA_MLDG",
+      "Poster": "https://nousphera.github.io/assets/posters/da-mldg-a0-landscape.pdf"
     },
     "summary": "This study examines domain-shift-aware meta-learning for speech emotion recognition across domains. It identifies limitations of log-mel spectrogram features for domain generalization and explores alternative representations for improving transfer.",
     "keywords": [
@@ -411,7 +436,9 @@
     "links": {
       "Paper": "https://doi.org/10.1145/3520128",
       "Project": "https://nousphera.github.io/projects/fedstar/",
-      "Code": "https://github.com/Nousphera/FedSTAR"
+      "Code": "https://github.com/Nousphera/FedSTAR",
+      "Repository": "https://github.com/Nousphera/FedSTAR",
+      "Poster": "https://nousphera.github.io/assets/posters/fedstar-a0-landscape.pdf"
     },
     "related": [
       {
@@ -452,7 +479,9 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2202.02611",
       "Project": "https://nousphera.github.io/projects/fedser/",
-      "Published version": "https://ieeexplore.ieee.org/document/9767445"
+      "Published version": "https://ieeexplore.ieee.org/document/9767445",
+      "Repository": "https://github.com/Nousphera/FedSER",
+      "Poster": "https://nousphera.github.io/assets/posters/fedser-a0-landscape.pdf"
     },
     "summary": "This work applies federated self-training to speech emotion recognition using both labeled and unlabeled on-device audio. Experiments on IEMOCAP examine learning with scarce labels and strongly non-IID client data.",
     "keywords": [
