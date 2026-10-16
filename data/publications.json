@@ -541,8 +541,8 @@
     "links": {
       "Paper": "https://ieeexplore.ieee.org/document/10150265/",
       "Project": "https://nousphera.github.io/projects/da-mldg/",
-      "Code": "https://github.com/Nousphera/DA_MLDG",
-      "Repository": "https://github.com/Nousphera/DA_MLDG",
+      "Code": "https://github.com/Nousphera/DA-MLDG",
+      "Repository": "https://github.com/Nousphera/DA-MLDG",
       "Poster": "https://nousphera.github.io/assets/posters/da-mldg-a0-landscape.pdf"
     },
     "summary": "This study examines domain-shift-aware meta-learning for speech emotion recognition across domains. It identifies limitations of log-mel spectrogram features for domain generalization and explores alternative representations for improving transfer.",
