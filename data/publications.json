@@ -11,7 +11,7 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2607.17913",
-      "Project": "https://nousphera.github.io/projects/ae-psl/",
+      "Project": "https://nousphera.github.io/AE_PSL/",
       "Code": "https://github.com/Nousphera/AE_PSL",
       "Repository": "https://github.com/Nousphera/AE_PSL",
       "Poster": "https://nousphera.github.io/assets/posters/ae-psl-a0-landscape.pdf"
@@ -57,9 +57,10 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2502.06376",
-      "Project": "https://nousphera.github.io/projects/matu/",
+      "Project": "https://nousphera.github.io/MaTU/",
       "Repository": "https://github.com/Nousphera/MaTU",
-      "Poster": "https://nousphera.github.io/assets/posters/matu-a0-landscape.pdf"
+      "Poster": "https://nousphera.github.io/assets/posters/matu-a0-landscape.pdf",
+      "Code": "https://github.com/Nousphera/MaTU"
     },
     "summary": "MaTU combines task vectors into a shared representation for federated clients with different or multiple tasks. Lightweight task-specific modulators support transfer between related tasks while separating dissimilar ones, without storing a separate client model at the server.",
     "keywords": [
@@ -100,7 +101,7 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2502.06355",
-      "Project": "https://nousphera.github.io/projects/mpsl/",
+      "Project": "https://nousphera.github.io/MPSL/",
       "Code": "https://github.com/Nousphera/MPSL",
       "Repository": "https://github.com/Nousphera/MPSL",
       "Poster": "https://nousphera.github.io/assets/posters/mpsl-a0-landscape.pdf"
@@ -145,9 +146,9 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2508.07873",
-      "Project": "https://nousphera.github.io/projects/efu/",
+      "Project": "https://nousphera.github.io/EFU/",
       "Published Version": "https://doi.org/10.1145/3746252.3761091",
-      "Code": "https://github.com/SamaneMohammadi/EFU",
+      "Code": "https://github.com/Nousphera/EFU",
       "Repository": "https://github.com/Nousphera/EFU",
       "Poster": "https://nousphera.github.io/assets/posters/efu-a0-landscape.pdf"
     },
@@ -193,9 +194,9 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2406.09152",
-      "Project": "https://nousphera.github.io/projects/enccluster/",
+      "Project": "https://nousphera.github.io/EncCluster/",
       "Published Version": "https://www.sciencedirect.com/science/article/pii/S1574119225000100",
-      "Code": "https://github.com/SamaneMohammadi/EncCluster",
+      "Code": "https://github.com/Nousphera/EncCluster",
       "Repository": "https://github.com/Nousphera/EncCluster",
       "Poster": "https://nousphera.github.io/assets/posters/enccluster-a0-landscape.pdf"
     },
@@ -247,10 +248,11 @@
     ],
     "links": {
       "Paper": "https://research.tue.nl/files/349909071/2024337517.pdf",
-      "Project": "https://nousphera.github.io/projects/deltamask/",
+      "Project": "https://nousphera.github.io/DeltaMask/",
       "Preprint": "https://arxiv.org/abs/2311.17299",
       "Repository": "https://github.com/Nousphera/DeltaMask",
-      "Poster": "https://nousphera.github.io/assets/posters/deltamask-a0-landscape.pdf"
+      "Poster": "https://nousphera.github.io/assets/posters/deltamask-a0-landscape.pdf",
+      "Code": "https://github.com/Nousphera/DeltaMask"
     },
     "related": [
       {
@@ -312,7 +314,7 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1145/3626242",
-      "Project": "https://nousphera.github.io/projects/fedln/",
+      "Project": "https://nousphera.github.io/FedLN/",
       "Code": "https://github.com/Nousphera/FedLN",
       "Repository": "https://github.com/Nousphera/FedLN",
       "Poster": "https://nousphera.github.io/assets/posters/fedln-a0-landscape.pdf"
@@ -366,7 +368,7 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2401.14211",
-      "Project": "https://nousphera.github.io/projects/fedcompress/",
+      "Project": "https://nousphera.github.io/FedCompress/",
       "Code": "https://github.com/Nousphera/FedCompress",
       "Repository": "https://github.com/Nousphera/FedCompress",
       "Poster": "https://nousphera.github.io/assets/posters/fedcompress-a0-landscape.pdf"
@@ -411,7 +413,7 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2311.09270",
-      "Project": "https://nousphera.github.io/projects/fedcode/",
+      "Project": "https://nousphera.github.io/FedCode/",
       "Published Version": "https://ieeexplore.ieee.org/document/10646450/",
       "Code": "https://github.com/Nousphera/FedCode",
       "Repository": "https://github.com/Nousphera/FedCode",
@@ -460,9 +462,10 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1007/978-981-96-4836-8_13",
-      "Project": "https://nousphera.github.io/projects/fiba/",
+      "Project": "https://nousphera.github.io/FiBA/",
       "Repository": "https://github.com/Nousphera/FiBA",
-      "Poster": "https://nousphera.github.io/assets/posters/fiba-a0-landscape.pdf"
+      "Poster": "https://nousphera.github.io/assets/posters/fiba-a0-landscape.pdf",
+      "Code": "https://github.com/Nousphera/FiBA"
     },
     "summary": "This study evaluates invisible backdoor attacks in federated learning under different training settings and defenses. It examines how limited local training and model aggregation affect attack success, and investigates attention-based trigger placement.",
     "keywords": [
@@ -508,7 +511,7 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2305.03058",
-      "Project": "https://nousphera.github.io/projects/plix/",
+      "Project": "https://nousphera.github.io/PLiX/",
       "Repository": "https://github.com/Nousphera/PLiX",
       "Poster": "https://nousphera.github.io/assets/posters/plix-a0-landscape.pdf",
       "Code": "https://huggingface.co/aaqibsaeed/plixkws"
@@ -540,7 +543,7 @@
     ],
     "links": {
       "Paper": "https://ieeexplore.ieee.org/document/10150265/",
-      "Project": "https://nousphera.github.io/projects/da-mldg/",
+      "Project": "https://nousphera.github.io/DA-MLDG/",
       "Code": "https://github.com/Nousphera/DA-MLDG",
       "Repository": "https://github.com/Nousphera/DA-MLDG",
       "Poster": "https://nousphera.github.io/assets/posters/da-mldg-a0-landscape.pdf"
@@ -587,7 +590,7 @@
     ],
     "links": {
       "Paper": "https://doi.org/10.1145/3520128",
-      "Project": "https://nousphera.github.io/projects/fedstar/",
+      "Project": "https://nousphera.github.io/FedSTAR/",
       "Code": "https://github.com/Nousphera/FedSTAR",
       "Repository": "https://github.com/Nousphera/FedSTAR",
       "Poster": "https://nousphera.github.io/assets/posters/fedstar-a0-landscape.pdf"
@@ -643,11 +646,12 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2202.02611",
-      "Project": "https://nousphera.github.io/projects/fedser/",
+      "Project": "https://nousphera.github.io/FedSER/",
       "Published Version": "https://ieeexplore.ieee.org/document/9767445",
       "Repository": "https://github.com/Nousphera/FedSER",
       "Poster": "https://nousphera.github.io/assets/posters/fedser-a0-landscape.pdf",
-      "Video": "https://www.youtube.com/watch?v=aJ4A5wL6G8c"
+      "Video": "https://www.youtube.com/watch?v=aJ4A5wL6G8c",
+      "Code": "https://github.com/Nousphera/FedSER"
     },
     "summary": "This work applies federated self-training to speech emotion recognition using both labeled and unlabeled on-device audio. Experiments on IEMOCAP examine learning with scarce labels and strongly non-IID client data.",
     "keywords": [

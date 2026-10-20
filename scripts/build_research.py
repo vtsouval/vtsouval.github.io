@@ -15,7 +15,7 @@ def build(sync_to=None):
     source = ROOT / 'data/research-areas.json'
     areas = json.loads(source.read_text())['areas']
     papers = json.loads((ROOT / 'data/publications.json').read_text())
-    slugs = {urlparse(p['links']['Project']).path.strip('/').split('/')[-1] for p in papers}
+    slugs = {urlparse(p['links']['Project']).path.strip('/').split('/')[-1].lower().replace('_', '-') for p in papers}
     assigned = {slug for area in areas for slug in area['papers']}
     if assigned != slugs:
         raise ValueError(f'Research areas must cover exactly the public paper catalog: {assigned ^ slugs}')
@@ -34,7 +34,7 @@ def build(sync_to=None):
     <h3>{title}</h3><p>{esc(area['description'])}</p>
     <span class="area-papers"><span>Publications</span>{icon('arrow')}</span>
   </a>
-  <a class="area-projects" href="https://nousphera.github.io/projects/?area={key}#collection" aria-label="{title} — projects on Nousphera" title="Projects on Nousphera">{icon('github')}<span>Projects</span>{icon('arrow')}</a>
+  <a class="area-projects" href="https://nousphera.github.io/?area={key}#collection" aria-label="{title} — projects on Nousphera" title="Projects on Nousphera">{icon('project')}<span>Projects</span>{icon('arrow')}</a>
 </article>''')
     markup = f'''<section id="research" class="section shell research" aria-labelledby="research-title">
   <span id="code" class="section-anchor" aria-hidden="true"></span>

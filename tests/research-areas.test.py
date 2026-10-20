@@ -22,8 +22,8 @@ class Page(HTMLParser):
             self.tiles[attrs['data-research-topic']] = attrs['href']
         if tag == 'article' and attrs.get('class') == 'publication':
             self.current = set(attrs['data-topics'].split())
-        if tag == 'a' and self.current is not None and attrs.get('href', '').startswith('https://nousphera.github.io/projects/'):
-            slug = urlparse(attrs['href']).path.strip('/').split('/')[-1]
+        if tag == 'a' and self.current is not None and attrs.get('title') == 'Project':
+            slug = urlparse(attrs['href']).path.strip('/').split('/')[-1].lower().replace('_', '-')
             self.papers[slug] = self.current
 
     def handle_endtag(self, tag):
@@ -46,7 +46,7 @@ class ResearchAreaTests(unittest.TestCase):
     def test_shared_catalog_has_no_missing_or_private_paper(self):
         source = json.loads((ROOT / 'data/research-areas.json').read_text())
         public = json.loads((ROOT / 'data/publications.json').read_text())
-        slugs = {urlparse(p['links']['Project']).path.strip('/').split('/')[-1] for p in public}
+        slugs = {urlparse(p['links']['Project']).path.strip('/').split('/')[-1].lower().replace('_', '-') for p in public}
         mapped = {slug for area in source['areas'] for slug in area['papers']}
         self.assertEqual(slugs, mapped)
         sibling = ROOT.parent / 'nousphera-migration/nousphera-site/data/research-areas.json'

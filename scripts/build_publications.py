@@ -23,7 +23,7 @@ topic_names.update({area['id']: area['title'] for area in areas})
 
 
 def research_topics(publication):
-    slug = urlparse(publication.get('links', {}).get('Project', '')).path.strip('/').split('/')[-1]
+    slug = urlparse(publication.get('links', {}).get('Project', '')).path.strip('/').split('/')[-1].lower().replace('_', '-')
     matches = [area['id'] for area in areas if slug in area['papers']]
     return matches or publication['topics']
 
@@ -34,10 +34,12 @@ def publication_id(publication):
     return 'pub-' + re.sub(r'[^a-z0-9]+', '-', title).strip('-')
 
 
-def link_icon(label):
+def link_icon(label, url=''):
     if label == 'Video':
         return '<svg class="youtube-mark" aria-hidden="true"><use href="assets/icons.svg#youtube"></use></svg>'
     icon = {'Paper': 'file', 'Preprint': 'file', 'Code': 'code', 'Project': 'project', 'Poster': 'poster', 'Cite': 'quote', 'Expand': 'chevron'}.get(label, 'external')
+    if label == 'Code' and urlparse(url).hostname == 'github.com':
+        icon = 'github'
     return f'<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#{icon}"></use></svg>'
 
 
@@ -101,7 +103,7 @@ def render_resources(publication):
                  ('Project', links.get('Project')), ('Code', code),
                  ('Poster', links.get('Poster')), ('Video', links.get('Video'))]
     return ''.join(
-        f'<a class="pub-resource" href="{esc(url, quote=True)}" aria-label="{esc(label + " — " + publication["title"], quote=True)}" title="{label}">{link_icon(label)}<span class="pub-tooltip" aria-hidden="true">{label}</span></a>'
+        f'<a class="pub-resource" href="{esc(url, quote=True)}" aria-label="{esc(label + " — " + publication["title"], quote=True)}" title="{label}">{link_icon(label, url)}<span class="pub-tooltip" aria-hidden="true">{label}</span></a>'
         for label, url in resources if url
     )
 

@@ -47,7 +47,7 @@ class PublicationBuildTests(unittest.TestCase):
         'related': [{'title': 'Earlier Speech Models', 'venue': 'ICML 2024', 'url': 'https://example.org/earlier'}],
     }
 
-    def render(self, papers):
+    def render(self, papers, areas=None):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'scripts').mkdir()
@@ -59,6 +59,8 @@ class PublicationBuildTests(unittest.TestCase):
             shutil.copyfile(ROOT / 'data/venues.json', root / 'data/venues.json')
             shutil.copyfile(ROOT / 'assets/icons.svg', root / 'assets/icons.svg')
             (root / 'data/publications.json').write_text(json.dumps(papers))
+            if areas is not None:
+                (root / 'data/research-areas.json').write_text(json.dumps({'areas': areas}))
             (root / 'data/people.json').write_text(json.dumps({'A. García': {'name': 'Ana García', 'url': 'https://example.org/author'}}))
             (root / 'index.html').write_text('<main><!-- PUBLICATIONS START --><!-- PUBLICATIONS END --></main>')
             subprocess.run(['python3', str(root / 'scripts/build_publications.py')], check=True, capture_output=True)
@@ -82,6 +84,16 @@ class PublicationBuildTests(unittest.TestCase):
         self.assertTrue(any(d.get('class') == 'pub-disclosure' and 'open' not in d for d in parsed.details))
         self.assertIn('noisy environments &amp; low-resource', markup)
         self.assertTrue(all(d.get('name') == 'publication-abstract' for d in parsed.details))
+
+    def test_repository_page_urls_preserve_research_area_filters(self):
+        paper = {**self.paper, 'links': {
+            **self.paper['links'], 'Project': 'https://nousphera.github.io/AE_PSL/'}}
+        _, parsed = self.render([paper], areas=[
+            {'id': 'foundation', 'title': 'Foundation models', 'papers': ['ae-psl']},
+            {'id': 'decentralized', 'title': 'Decentralized learning', 'papers': ['ae-psl']},
+        ])
+        self.assertEqual(set(parsed.articles[0]['data-topics'].split()),
+                         {'foundation', 'decentralized'})
 
     def test_authors_are_plain_text_even_when_profile_metadata_exists(self):
         markup, parsed = self.render([self.paper])
