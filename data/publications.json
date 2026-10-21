@@ -11,9 +11,9 @@
     ],
     "links": {
       "Paper": "https://arxiv.org/abs/2607.17913",
-      "Project": "https://nousphera.github.io/AE_PSL/",
-      "Code": "https://github.com/Nousphera/AE_PSL",
-      "Repository": "https://github.com/Nousphera/AE_PSL",
+      "Project": "https://nousphera.github.io/AE-PSL/",
+      "Code": "https://github.com/Nousphera/AE-PSL",
+      "Repository": "https://github.com/Nousphera/AE-PSL",
       "Poster": "https://nousphera.github.io/assets/posters/ae-psl-a0-landscape.pdf"
     },
     "summary": "AE-PSL uses a lightweight autoencoder to compress activations and gradients exchanged during parallel split learning. A two-stage alignment procedure adapts the compressor to a pre-trained foundation model and client-specific feature distributions before distributed fine-tuning.",
@@ -30,7 +30,7 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2607.17913",
-      "https://github.com/Nousphera/AE_PSL#readme"
+      "https://github.com/Nousphera/AE-PSL#readme"
     ],
     "event": {
       "location": "Naples, Italy",

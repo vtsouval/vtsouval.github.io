@@ -87,7 +87,7 @@ class PublicationBuildTests(unittest.TestCase):
 
     def test_repository_page_urls_preserve_research_area_filters(self):
         paper = {**self.paper, 'links': {
-            **self.paper['links'], 'Project': 'https://nousphera.github.io/AE_PSL/'}}
+            **self.paper['links'], 'Project': 'https://nousphera.github.io/AE-PSL/'}}
         _, parsed = self.render([paper], areas=[
             {'id': 'foundation', 'title': 'Foundation models', 'papers': ['ae-psl']},
             {'id': 'decentralized', 'title': 'Decentralized learning', 'papers': ['ae-psl']},

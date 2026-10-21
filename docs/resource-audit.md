@@ -16,7 +16,7 @@ Eight Code links were added; the existing FedSTAR Code link was confirmed. No au
 
 | Publication / method | Public code | Match evidence |
 | --- | --- | --- |
-| AE-PSL | [Nousphera/AE_PSL](https://github.com/Nousphera/AE_PSL) | README names the paper, authors and [arXiv:2607.17913](https://arxiv.org/abs/2607.17913). |
+| AE-PSL | [Nousphera/AE_PSL](https://github.com/Nousphera/AE-PSL) | README names the paper, authors and [arXiv:2607.17913](https://arxiv.org/abs/2607.17913). |
 | MPSL | [Nousphera/MPSL](https://github.com/Nousphera/MPSL) | README title and citation match [arXiv:2502.06355](https://arxiv.org/abs/2502.06355). |
 | EFU | [SamaneMohammadi/EFU](https://github.com/SamaneMohammadi/EFU) | README links the CIKM DOI and [arXiv:2508.07873](https://arxiv.org/abs/2508.07873), with matching authors. |
 | EncCluster | [SamaneMohammadi/EncCluster](https://github.com/SamaneMohammadi/EncCluster) | README links the journal article and [arXiv:2406.09152](https://arxiv.org/abs/2406.09152), with a matching journal citation. |
